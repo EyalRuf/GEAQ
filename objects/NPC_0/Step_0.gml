@@ -7,5 +7,3 @@
 //} else {
 //	vspeed += (y - ystart) > 0 ? -1 : 1;
 //}
-
-//bla
