@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "52de1af7-0359-4368-8207-84cc93cd246d",
-            "Value": {
-                "id": "f588a3a1-a7a4-487b-8e82-88281f372a33",
-                "resourcePath": "scripts\\bumpNPC\\bumpNPC.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "631f2ab8-ca5b-496e-80ff-613d8c78aedc",
             "Value": {
                 "id": "7ca41804-23a7-4a41-ba07-05299d6fe2ed",
@@ -132,6 +124,14 @@
                 "id": "d755d412-f504-48e8-8b90-54c0eb661bd4",
                 "resourcePath": "sprites\\idle_top\\idle_top.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7076cb11-c7e0-40df-b775-09ba3ad568db",
+            "Value": {
+                "id": "2213f4ad-0583-4633-9ef2-c3f633dd9a76",
+                "resourcePath": "objects\\NPC_0\\NPC_0.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -170,7 +170,7 @@
             "Key": "79614774-7561-4bb4-a35f-91be719d3d01",
             "Value": {
                 "id": "361bce8b-b86f-4cbd-87be-b5a2cdc416fc",
-                "resourcePath": "objects\\NPC_0\\NPC_0.yy",
+                "resourcePath": "objects\\BASE_NPC\\BASE_NPC.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -212,14 +212,6 @@
                 "id": "159c3142-9511-4ec8-856d-480e6fbbb43a",
                 "resourcePath": "sprites\\wall_0\\wall_0.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9421182c-9432-42a1-a99c-996d4717cc75",
-            "Value": {
-                "id": "e3487810-4ba9-403d-8926-5a0dc9ddebaf",
-                "resourcePath": "scripts\\retractNPC\\retractNPC.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -312,8 +304,7 @@
         }
     ],
     "script_order": [
-        "52de1af7-0359-4368-8207-84cc93cd246d",
-        "9421182c-9432-42a1-a99c-996d4717cc75"
+        
     ],
     "tutorial": ""
 }
