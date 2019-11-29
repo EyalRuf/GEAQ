@@ -2,7 +2,8 @@
 if (bumped) {
 	// Npc is retracting
 	if (retracting) {
-		move_towards_point(xstart, ystart, 1);
+		move_towards_point(xstart, ystart, 1.2);
+		
 		
 		// If its really close to its original location => stop retracting
 		// and reset it to its starting location
@@ -25,5 +26,6 @@ if (bumped) {
 		y = ystart;
 		retracting = false;
 		bumped = false;
+		interactingWithPlayer = false;
 	}
 }

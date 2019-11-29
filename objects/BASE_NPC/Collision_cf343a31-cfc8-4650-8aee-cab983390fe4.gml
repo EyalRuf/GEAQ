@@ -10,8 +10,10 @@ if (!bumped) {
 	// half the player's speed
 	xdestination = x + xdifference;
 	ydestination = y + ydifference;
-	move_towards_point(xdestination, ydestination, player.speed / 2);
+	move_towards_point(xdestination, ydestination, player.speed - 1);
 	
 	// Npc is now being bumped
 	bumped = true;
+	interactingWithPlayer = true;
 }
+

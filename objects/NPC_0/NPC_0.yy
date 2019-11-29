@@ -6,8 +6,41 @@
     "eventList": [
         
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "maskSpriteId": "1909d071-2336-4449-b4e8-78a9a41ceba0",
+    "overriddenProperties": [
+        {
+            "id": "066db9bd-d62d-4441-afc7-bb3be29c3569",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
+            "propertyId": "81c42b9f-95c3-4ca5-99d7-e6de03251df7",
+            "value": "NPC_idle_bottom"
+        },
+        {
+            "id": "f0fa7289-d1c1-4528-b6c6-a50a776bffc3",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
+            "propertyId": "2bcc0973-a439-466d-9a81-64e2ade1daa4",
+            "value": "NPC_idle_top"
+        },
+        {
+            "id": "4ff445e6-6107-4263-bd92-5f02c0e7dde9",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
+            "propertyId": "be2a9812-c83d-45fa-ac0e-f3b2e2eb900e",
+            "value": "NPC_idle_left"
+        },
+        {
+            "id": "36dae73e-8fe7-4972-ae94-8240f872dd8b",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
+            "propertyId": "1335ec7f-50e9-45b3-bc16-23bfa37622f2",
+            "value": "NPC_idle_right"
+        }
+    ],
     "parentObjectId": "79614774-7561-4bb4-a35f-91be719d3d01",
     "persistent": false,
     "physicsAngularDamping": 0.1,
