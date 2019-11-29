@@ -6,7 +6,7 @@ if (bumped) {
 		
 		
 		// If its really close to its original location => stop retracting
-		// and reset it to its starting location
+		// and reset it to its starting location HELLO
 		if (point_distance(x, y, xstart, ystart) < 1) {
 			speed = 0;
 			x = xstart;
