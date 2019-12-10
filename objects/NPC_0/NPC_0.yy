@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "NPC_0",
     "eventList": [
-        
+        {
+            "id": "4e97d5d5-9d1a-48bc-8a4b-e0596074ff88",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "7076cb11-c7e0-40df-b775-09ba3ad568db"
+        }
     ],
     "maskSpriteId": "1909d071-2336-4449-b4e8-78a9a41ceba0",
     "overriddenProperties": [
@@ -39,6 +48,14 @@
             "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
             "propertyId": "1335ec7f-50e9-45b3-bc16-23bfa37622f2",
             "value": "NPC_idle_right"
+        },
+        {
+            "id": "005c84f1-b432-4119-8237-76f137acbc1d",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
+            "propertyId": "9bb2539a-e608-4c1c-8d5d-f0e35a520545",
+            "value": "0"
         }
     ],
     "parentObjectId": "79614774-7561-4bb4-a35f-91be719d3d01",

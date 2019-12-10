@@ -1,6 +1,8 @@
+// CONSTANTS
 LEASH_RANGE = 6;
-RESET_BUMP_RANGE = 150;
+RESET_BUMP_RANGE = 175;
 
+// Variables
 bumped = false;
 retracting = false;
 interactingWithPlayer = false;
