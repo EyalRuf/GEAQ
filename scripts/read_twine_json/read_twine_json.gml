@@ -17,7 +17,7 @@ var twineJson = twineJsonDefault[?"default"];
 for (var i = 0; i < ds_list_size(twineJson); i++) {
 	var currNode = twineJson[| i];
 	var mappedNode = ds_map_create();
-	var nodeId = round(real(currNode[? global.DIALOG_MAP_ID_PROPNAME]));
+	var nodeId = parseInt(currNode[? global.DIALOG_MAP_ID_PROPNAME]);
 	var isQ = currNode[? global.DIALOG_MAP_IS_QUESTION_PROPNAME] == "true" ? true : false;
 	
 	mappedNode[? global.DIALOG_MAP_ID_PROPNAME] = nodeId;
