@@ -39,6 +39,14 @@
             "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
             "propertyId": "1335ec7f-50e9-45b3-bc16-23bfa37622f2",
             "value": "NPC_idle_right"
+        },
+        {
+            "id": "005c84f1-b432-4119-8237-76f137acbc1d",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
+            "propertyId": "9bb2539a-e608-4c1c-8d5d-f0e35a520545",
+            "value": "0"
         }
     ],
     "parentObjectId": "79614774-7561-4bb4-a35f-91be719d3d01",

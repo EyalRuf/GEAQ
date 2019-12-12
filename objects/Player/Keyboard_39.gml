@@ -1,5 +1,7 @@
-if (hspeed < MAX_DIRECTIONAL_SPEED) {
-	hspeed++;
-}
+if (canMove) {
+	if (hspeed < MAX_DIRECTIONAL_SPEED) {
+		hspeed++;
+	}
 
-sprite_index = walk_right;
+	sprite_index = walk_right;
+}
