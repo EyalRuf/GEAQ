@@ -4,7 +4,6 @@ if (bumped) {
 	if (retracting) {
 		move_towards_point(xstart, ystart, 1.2);
 		
-		
 		// If its really close to its original location => stop retracting
 		// and reset it to its starting location HELLO
 		if (point_distance(x, y, xstart, ystart) < 1) {
@@ -27,5 +26,7 @@ if (bumped) {
 		retracting = false;
 		bumped = false;
 		interactingWithPlayer = false;
+		instance_destroy(DialogBox);
+		Player.interacting = false;
 	}
 }
