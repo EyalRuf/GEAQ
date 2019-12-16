@@ -1,6 +1,6 @@
 /// read_twine_json()
 
-var twineFile = file_text_open_read("twine.json"), jsonStr = "";
+var twineFile = file_text_open_read("twine2.json"), jsonStr = "";
 
 // Reads file into a json string
 while (!file_text_eof(twineFile)) {

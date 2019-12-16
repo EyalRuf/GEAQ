@@ -19,22 +19,29 @@ draw_line_width(DIVIDER_X, DIVIDER_Y1, DIVIDER_X, DIVIDER_Y2, 6);
 draw_set_color(c_white);
 draw_text_ext(NPC_TEXT_X, NPC_TEXT_Y, npcText, LINE_SEPARATION, TEXT_AREA_WIDTH);
 
+var addedAnswersY = 0;
+
 // Drawing Answer array
 for (i = 0; i < ds_list_size(answerArr); i++) {
 	var ansNode = answerArr[| i];
 	var text = ansNode[? global.DIALOG_MAP_TEXT_PROPNAME];
+	var currentTextHeight = string_height_ext(text, LINE_SEPARATION, TEXT_AREA_WIDTH);
+	
 	if (i == selectedAnswerIndex) {
 		text = "> " + text;
 		draw_set_color(c_green);
 
 		if (selectedAnswerHighlighted) {
-			draw_rectangle(ANSWERS_X, ANSWERS_Y + (LINE_SEPARATION * i),
-				ANSWERS_X + TEXT_AREA_WIDTH, ANSWERS_Y + (LINE_SEPARATION * i) + LINE_SEPARATION, false);
+			draw_rectangle(ANSWERS_X, ANSWERS_Y + (LINE_SEPARATION * i) + addedAnswersY,
+				ANSWERS_X + TEXT_AREA_WIDTH, 
+				ANSWERS_Y + (LINE_SEPARATION * i) + LINE_SEPARATION + addedAnswersY + currentTextHeight, false);
 		}
 		
 		draw_set_color(c_white);
 	}
 	
-	draw_text_ext(ANSWERS_X, ANSWERS_Y + (LINE_SEPARATION * i), 
+	draw_text_ext(ANSWERS_X, ANSWERS_Y + (LINE_SEPARATION * i) + addedAnswersY, 
 		text, LINE_SEPARATION, TEXT_AREA_WIDTH);
+		
+	addedAnswersY += currentTextHeight;
 }
