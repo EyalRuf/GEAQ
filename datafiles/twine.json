@@ -1,230 +1,2579 @@
 ﻿[
+    {
+        "pid": 1,
+        "position": {
+          "x": 404,
+          "y": 170
+        },
+        "name": "0",
+        "tags": [
+          ""
+        ],
+        "content": "[[1]][[2]][[3]][[4]] {{id}} 0 {{/id}} {{text}} Look at this guy thinking he can talk to us. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 1, 2, 3, 4 {{/ansArr}}",
+        "childrenNames": [
+          "[[1]]",
+          "[[2]]",
+          "[[3]]",
+          "[[4]]"
+        ],
+        "id": "0",
+        "text": "Look at this guy thinking he can talk to us.",
+        "isQ": "true",
+        "ansArr": "1, 2, 3, 4"
+      },
+      {
+        "pid": 2,
+        "position": {
+          "x": 182,
+          "y": 329
+        },
+        "name": "1",
+        "tags": [
+          ""
+        ],
+        "content": "[[6]] {{id}} 1 {{/id}} {{text}} Did I do something wrong? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 6 {{/nextQId}}",
+        "childrenNames": [
+          "[[6]]"
+        ],
+        "id": "1",
+        "text": "Did I do something wrong?",
+        "isQ": "false",
+        "nextQId": "6"
+      },
+      {
+        "pid": 3,
+        "position": {
+          "x": 332,
+          "y": 323
+        },
+        "name": "2",
+        "tags": [
+          ""
+        ],
+        "content": "[[7]] {{id}} 2 {{/id}} {{text}} Right back at ya. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 7 {{/nextQId}}",
+        "childrenNames": [
+          "[[7]]"
+        ],
+        "id": "2",
+        "text": "Right back at ya.",
+        "isQ": "false",
+        "nextQId": "7"
+      },
+      {
+        "pid": 4,
+        "position": {
+          "x": 485,
+          "y": 323
+        },
+        "name": "3",
+        "tags": [
+          ""
+        ],
+        "content": "[[7]] {{id}} 3 {{/id}} {{text}} Fuck off {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 7 {{/nextQId}}",
+        "childrenNames": [
+          "[[7]]"
+        ],
+        "id": "3",
+        "text": "Fuck off",
+        "isQ": "false",
+        "nextQId": "7"
+      },
+      {
+        "pid": 5,
+        "position": {
+          "x": 629,
+          "y": 353
+        },
+        "name": "4",
+        "tags": [
+          ""
+        ],
+        "content": "[[8]] {{id}} 4 {{/id}} {{text}} A friend of Ashanti, I had to tell you dinner is ready. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 8 {{/nextQId}} {{isLocked}} true {{/isLocked}}",
+        "childrenNames": [
+          "[[8]]"
+        ],
+        "id": "4",
+        "text": "A friend of Ashanti, I had to tell you dinner is ready.",
+        "isQ": "false",
+        "nextQId": "8",
+        "isLocked": "true"
+      },
+      {
+        "pid": 6,
+        "position": {
+          "x": 68,
+          "y": 437
+        },
+        "name": "6",
+        "tags": [
+          ""
+        ],
+        "content": "[[99]] {{id}} 6 {{/id}} {{text}} HAHAHAHA {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 99 {{/ansArr}}",
+        "childrenNames": [
+          "[[99]]"
+        ],
+        "id": "6",
+        "text": "HAHAHAHA",
+        "isQ": "true",
+        "ansArr": "99"
+      },
+      {
+        "pid": 7,
+        "position": {
+          "x": 539,
+          "y": 494
+        },
+        "name": "8",
+        "tags": [
+          ""
+        ],
+        "content": "[[9]][[10]][[11]][[12]] {{id}} 8 {{/id}} {{text}} Y...y...you are lying. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 9, 10, 11, 12 {{/ansArr}}",
+        "childrenNames": [
+          "[[9]]",
+          "[[10]]",
+          "[[11]]",
+          "[[12]]"
+        ],
+        "id": "8",
+        "text": "Y...y...you are lying.",
+        "isQ": "true",
+        "ansArr": "9, 10, 11, 12"
+      },
+      {
+        "pid": 8,
+        "position": {
+          "x": 320,
+          "y": 623
+        },
+        "name": "9",
+        "tags": [
+          ""
+        ],
+        "content": "[[13]] {{id}} 9 {{/id}} {{text}} Ashenti Shakur is your mother right? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 13 {{/nextQId}}",
+        "childrenNames": [
+          "[[13]]"
+        ],
+        "id": "9",
+        "text": "Ashenti Shakur is your mother right?",
+        "isQ": "false",
+        "nextQId": "13"
+      },
+      {
+        "pid": 9,
+        "position": {
+          "x": 497,
+          "y": 650
+        },
+        "name": "10",
+        "tags": [
+          ""
+        ],
+        "content": "[[14]] {{id}} 10 {{/id}} {{text}} Ashanti, the old lady who went to prison. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 14 {{/nextQId}}",
+        "childrenNames": [
+          "[[14]]"
+        ],
+        "id": "10",
+        "text": "Ashanti, the old lady who went to prison.",
+        "isQ": "false",
+        "nextQId": "14"
+      },
+      {
+        "pid": 10,
+        "position": {
+          "x": 623,
+          "y": 623
+        },
+        "name": "11",
+        "tags": [
+          ""
+        ],
+        "content": "[[15]] {{id}} 11 {{/id}} {{text}} You know Ashanti, the black old lady {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 15 {{/nextQId}}",
+        "childrenNames": [
+          "[[15]]"
+        ],
+        "id": "11",
+        "text": "You know Ashanti, the black old lady",
+        "isQ": "false",
+        "nextQId": "15"
+      },
+      {
+        "pid": 11,
+        "position": {
+          "x": 770,
+          "y": 623
+        },
+        "name": "12",
+        "tags": [
+          ""
+        ],
+        "content": "[[16]] {{id}} 12 {{/id}} {{text}} Ashanti told me she was arrested for speeding {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 16 {{/nextQId}}",
+        "childrenNames": [
+          "[[16]]"
+        ],
+        "id": "12",
+        "text": "Ashanti told me she was arrested for speeding",
+        "isQ": "false",
+        "nextQId": "16"
+      },
+      {
+        "pid": 12,
+        "position": {
+          "x": 323,
+          "y": 461
+        },
+        "name": "7",
+        "tags": [
+          ""
+        ],
+        "content": "[[99]] {{id}} 7 {{/id}} {{text}} Someone thinks he's smart. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 99 {{/ansArr}}",
+        "childrenNames": [
+          "[[99]]"
+        ],
+        "id": "7",
+        "text": "Someone thinks he's smart.",
+        "isQ": "true",
+        "ansArr": "99"
+      },
+      {
+        "pid": 13,
+        "position": {
+          "x": 383,
+          "y": 743
+        },
+        "name": "13",
+        "tags": [
+          ""
+        ],
+        "content": "[[24]] {{id}} 13 {{/id}} {{text}} HAHA, I wish I was related to Tupac. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 24 {{/ansArr}}",
+        "childrenNames": [
+          "[[24]]"
+        ],
+        "id": "13",
+        "text": "HAHA, I wish I was related to Tupac.",
+        "isQ": "true",
+        "ansArr": "24"
+      },
+      {
+        "pid": 14,
+        "position": {
+          "x": 539,
+          "y": 788
+        },
+        "name": "14",
+        "tags": [
+          ""
+        ],
+        "content": "[[18]][[19]] {{id}} 14 {{/id}} {{text}} U think u know me! If you know me so well than why did she go to prison? {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 18, 19 {{/ansArr}}",
+        "childrenNames": [
+          "[[18]]",
+          "[[19]]"
+        ],
+        "id": "14",
+        "text": "U think u know me! If you know me so well than why did she go to prison?",
+        "isQ": "true",
+        "ansArr": "18, 19"
+      },
+      {
+        "pid": 15,
+        "position": {
+          "x": 689,
+          "y": 758
+        },
+        "name": "15",
+        "tags": [
+          ""
+        ],
+        "content": "[[17]] {{id}} 15 {{/id}} {{text}} YOU RACIST!! {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 17 {{/ansArr}}",
+        "childrenNames": [
+          "[[17]]"
+        ],
+        "id": "15",
+        "text": "YOU RACIST!!",
+        "isQ": "true",
+        "ansArr": "17"
+      },
+      {
+        "pid": 16,
+        "position": {
+          "x": 884,
+          "y": 749
+        },
+        "name": "16",
+        "tags": [
+          ""
+        ],
+        "content": "[[25]] {{id}} 16 {{/id}} {{text}} You're just talking shit, go away {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 25 {{/ansArr}}",
+        "childrenNames": [
+          "[[25]]"
+        ],
+        "id": "16",
+        "text": "You're just talking shit, go away",
+        "isQ": "true",
+        "ansArr": "25"
+      },
+      {
+        "pid": 17,
+        "position": {
+          "x": 464,
+          "y": 914
+        },
+        "name": "18",
+        "tags": [
+          ""
+        ],
+        "content": "[[20]] {{id}} 18 {{/id}} {{text}} She got arrested by fighting for the rights of African American. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 20 {{/nextQId}}",
+        "childrenNames": [
+          "[[20]]"
+        ],
+        "id": "18",
+        "text": "She got arrested by fighting for the rights of African American.",
+        "isQ": "false",
+        "nextQId": "20"
+      },
+      {
+        "pid": 18,
+        "position": {
+          "x": 608,
+          "y": 956
+        },
+        "name": "19",
+        "tags": [
+          ""
+        ],
+        "content": "[[21]] {{id}} 19 {{/id}} {{text}} Arguing with a police officer {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 21 {{/nextQId}}",
+        "childrenNames": [
+          "[[21]]"
+        ],
+        "id": "19",
+        "text": "Arguing with a police officer",
+        "isQ": "false",
+        "nextQId": "21"
+      },
+      {
+        "pid": 19,
+        "position": {
+          "x": 389,
+          "y": 1052
+        },
+        "name": "20",
+        "tags": [
+          ""
+        ],
+        "content": "[[22]] {{id}} 20 {{/id}} {{text}} How old do you think she is?! fuck off. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 22 {{/ansArr}}",
+        "childrenNames": [
+          "[[22]]"
+        ],
+        "id": "20",
+        "text": "How old do you think she is?! fuck off.",
+        "isQ": "true",
+        "ansArr": "22"
+      },
+      {
+        "pid": 20,
+        "position": {
+          "x": 614,
+          "y": 1100
+        },
+        "name": "21",
+        "tags": [
+          ""
+        ],
+        "content": "[[22]] {{id}} 21 {{/id}} {{text}} OOH SHIT, I DON'T WANT ANOTHER LECTURE!!! {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 22 {{/ansArr}}",
+        "childrenNames": [
+          "[[22]]"
+        ],
+        "id": "21",
+        "text": "OOH SHIT, I DON'T WANT ANOTHER LECTURE!!!",
+        "isQ": "true",
+        "ansArr": "22"
+      },
+      {
+        "pid": 21,
+        "position": {
+          "x": 764,
+          "y": 914
+        },
+        "name": "17",
+        "tags": [
+          ""
+        ],
+        "content": "{{id}} 17 {{/id}} {{text}} *POW**BIF**BAM* {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}}",
+        "childrenNames": [],
+        "id": "17",
+        "text": "*POW**BIF**BAM*",
+        "isQ": "false",
+        "nextQId": "-1"
+      },
+      {
+        "pid": 22,
+        "position": {
+          "x": 182,
+          "y": 557
+        },
+        "name": "99",
+        "tags": [
+          ""
+        ],
+        "content": "{{id}} 99 {{/id}} {{text}} .... {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}}",
+        "childrenNames": [],
+        "id": "99",
+        "text": "....",
+        "isQ": "false",
+        "nextQId": "-1"
+      },
+      {
+        "pid": 23,
+        "position": {
+          "x": 479,
+          "y": 1217
+        },
+        "name": "22",
+        "tags": [
+          ""
+        ],
+        "content": "{{id}} 22 {{/id}} {{text}} .... {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}}",
+        "childrenNames": [],
+        "id": "22",
+        "text": "....",
+        "isQ": "false",
+        "nextQId": "-1"
+      },
+      {
+        "pid": 24,
+        "position": {
+          "x": 254,
+          "y": 863
+        },
+        "name": "24",
+        "tags": [
+          ""
+        ],
+        "content": "{{id}} 24 {{/id}} {{text}} .... {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}}",
+        "childrenNames": [],
+        "id": "24",
+        "text": "....",
+        "isQ": "false",
+        "nextQId": "-1"
+      },
+      {
+        "pid": 25,
+        "position": {
+          "x": 932,
+          "y": 893
+        },
+        "name": "25",
+        "tags": [
+          ""
+        ],
+        "content": "{{id}} 25 {{/id}} {{text}} .... {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}}",
+        "childrenNames": [],
+        "id": "25",
+        "text": "....",
+        "isQ": "false",
+        "nextQId": "-1"
+      },
   {
     "pid": 1,
     "position": {
-      "x": 653,
-      "y": 138
+      "x": 626,
+      "y": 1
     },
-    "name": "0",
+    "name": "Knock knock",
     "tags": [
       ""
     ],
-    "content": "[[1]][[2]][[3]][[4]] {{id}} 0 {{/id}} {{text}} Hello {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 1, 2, 3, 4 {{/ansArr}}",
+    "content": " {{id}} 200 {{/id}} {{text}} *Knocks on the door {{/text}} [[locked1]][[locked]] {{isQ}} true {{/isQ}} {{ansArr}} 201, 202 {{/ansArr}}",
     "childrenNames": [
-      "[[1]]",
-      "[[2]]",
-      "[[3]]",
-      "[[4]]"
+      "[[locked1]]",
+      "[[locked]]"
     ],
-    "id": "0",
-    "text": "Hello",
+    "id": "200",
+    "text": "*Knocks on the door",
     "isQ": "true",
-    "ansArr": "1, 2, 3, 4"
+    "ansArr": "201, 202"
   },
   {
     "pid": 2,
     "position": {
-      "x": 394,
-      "y": 381
+      "x": 93,
+      "y": 78
     },
-    "name": "1",
+    "name": "locked1",
     "tags": [
       ""
     ],
-    "content": "[[5]]  {{id}} 1 {{/id}} {{text}} Right back at you {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 5 {{/nextQId}}",
-    "childrenNames": [
-      "[[5]]"
-    ],
-    "id": "1",
-    "text": "Right back at you",
-    "isQ": "false",
-    "nextQId": "5"
-  },
-  {
-    "pid": 3,
-    "position": {
-      "x": 560,
-      "y": 377
-    },
-    "name": "2",
-    "tags": [
-      ""
-    ],
-    "content": "[[5]] {{id}} 2 {{/id}} {{text}} Oy {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 5 {{/nextQId}}",
-    "childrenNames": [
-      "[[5]]"
-    ],
-    "id": "2",
-    "text": "Oy",
-    "isQ": "false",
-    "nextQId": "5"
-  },
-  {
-    "pid": 4,
-    "position": {
-      "x": 740,
-      "y": 384
-    },
-    "name": "3",
-    "tags": [
-      ""
-    ],
-    "content": "[[5]] {{id}} 3 {{/id}} {{text}} Ay mane {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 5 {{/nextQId}}",
-    "childrenNames": [
-      "[[5]]"
-    ],
-    "id": "3",
-    "text": "Ay mane",
-    "isQ": "false",
-    "nextQId": "5"
-  },
-  {
-    "pid": 5,
-    "position": {
-      "x": 925,
-      "y": 387
-    },
-    "name": "4",
-    "tags": [
-      ""
-    ],
-    "content": "[[5]] {{id}} 4 {{/id}} {{text}} Hi {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 5 {{/nextQId}}",
-    "childrenNames": [
-      "[[5]]"
-    ],
-    "id": "4",
-    "text": "Hi",
-    "isQ": "false",
-    "nextQId": "5"
-  },
-  {
-    "pid": 6,
-    "position": {
-      "x": 614,
-      "y": 641
-    },
-    "name": "5",
-    "tags": [
-      ""
-    ],
-    "content": "[[6]][[7]][[8]] {{id}} 5 {{/id}} {{text}} U stupid or smth? {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 6, 7, 8 {{/ansArr}}",
-    "childrenNames": [
-      "[[6]]",
-      "[[7]]",
-      "[[8]]"
-    ],
-    "id": "5",
-    "text": "U stupid or smth?",
-    "isQ": "true",
-    "ansArr": "6, 7, 8"
-  },
-  {
-    "pid": 7,
-    "position": {
-      "x": 464,
-      "y": 791
-    },
-    "name": "6",
-    "tags": [
-      ""
-    ],
-    "content": "{{id}} 6 {{/id}} {{text}} Yes {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 0 {{/nextQId}}",
+    "content": " {{id}} 201 {{/id}} {{text}} 'I guess he's not home...' {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}}",
     "childrenNames": [],
-    "id": "6",
-    "text": "Yes",
-    "isQ": "false",
-    "nextQId": "0"
-  },
-  {
-    "pid": 8,
-    "position": {
-      "x": 614,
-      "y": 791
-    },
-    "name": "7",
-    "tags": [
-      ""
-    ],
-    "content": "[[9]] {{id}} 7 {{/id}} {{text}} No {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 9 {{/nextQId}}",
-    "childrenNames": [
-      "[[9]]"
-    ],
-    "id": "7",
-    "text": "No",
-    "isQ": "false",
-    "nextQId": "9"
-  },
-  {
-    "pid": 9,
-    "position": {
-      "x": 764,
-      "y": 791
-    },
-    "name": "8",
-    "tags": [
-      ""
-    ],
-    "content": "[[9]] {{id}} 8 {{/id}} {{text}} Faka u {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 9 {{/nextQId}}",
-    "childrenNames": [
-      "[[9]]"
-    ],
-    "id": "8",
-    "text": "Faka u",
-    "isQ": "false",
-    "nextQId": "9"
-  },
-  {
-    "pid": 10,
-    "position": {
-      "x": 764,
-      "y": 941
-    },
-    "name": "9",
-    "tags": [
-      ""
-    ],
-    "content": "[[10]][[11]]  {{id}} 9 {{/id}} {{text}} Quinten's cool? {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 10, 11 {{/ansArr}}",
-    "childrenNames": [
-      "[[10]]",
-      "[[11]]"
-    ],
-    "id": "9",
-    "text": "Quinten's cool?",
-    "isQ": "true",
-    "ansArr": "10, 11"
-  },
-  {
-    "pid": 11,
-    "position": {
-      "x": 689,
-      "y": 1091
-    },
-    "name": "10",
-    "tags": [
-      ""
-    ],
-    "content": "{{id}} 10 {{/id}} {{text}} YES {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}}",
-    "childrenNames": [],
-    "id": "10",
-    "text": "YES",
+    "id": "201",
+    "text": "\"I guess he's not home...\"",
     "isQ": "false",
     "nextQId": "-1"
   },
   {
-    "pid": 12,
+    "pid": 3,
     "position": {
-      "x": 839,
-      "y": 1091
+      "x": 677,
+      "y": 161
     },
-    "name": "11",
+    "name": "203",
     "tags": [
       ""
     ],
-    "content": "{{id}} 11 {{/id}} {{text}} NO {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 5 {{/nextQId}}",
-    "childrenNames": [],
-    "id": "11",
-    "text": "NO",
+    "content": " {{id}} 203 {{/id}} {{text}} Let me walk you to the couch area. {{/text}} [[204.]] {{isQ}} true {{/isQ}} {{ansArr}} 204 {{/ansArr}}",
+    "childrenNames": [
+      "[[204.]]"
+    ],
+    "id": "203",
+    "text": "Let me walk you to the couch area.",
+    "isQ": "true",
+    "ansArr": "204"
+  },
+  {
+    "pid": 4,
+    "position": {
+      "x": 683,
+      "y": 310
+    },
+    "name": "204.",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 204. {{/id}} {{text}} 'He knew he had to let him sit first and thats what he did and waited for his approval to sit' Come on, do not just stand there have a seat! {{/text}} [[205]] {{isQ}} false {{/isQ}} {{nextQId}} 205 {{/nextQId}}",
+    "childrenNames": [
+      "[[205]]"
+    ],
+    "id": "204.",
+    "text": "\"He knew he had to let him sit first and thats what he did and waited for his approval to sit\"\r\nCome on, do not just stand there have a seat!",
     "isQ": "false",
-    "nextQId": "5"
+    "nextQId": "205"
+  },
+  {
+    "pid": 5,
+    "position": {
+      "x": 682,
+      "y": 454
+    },
+    "name": "205",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 205 {{/id}} {{text}} So,what brought you here today boy? {{/text}} [[206]] [[216]] [[222]] [[208]] {{isQ}} true {{/isQ}} {{ansArr}} 206, 216, 222, 208 {{/ansArr}}",
+    "childrenNames": [
+      "[[206]]",
+      "[[216]]",
+      "[[222]]",
+      "[[208]]"
+    ],
+    "id": "205",
+    "text": "So,what brought you here today boy?",
+    "isQ": "true",
+    "ansArr": "206, 216, 222, 208"
+  },
+  {
+    "pid": 6,
+    "position": {
+      "x": 72,
+      "y": 619
+    },
+    "name": "206",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 206 {{/id}} {{text}} I've come to talk about life. {{/text}} [[207]] {{isQ}} false {{/isQ}} {{nextQId}} 207 {{/nextQId}}",
+    "childrenNames": [
+      "[[207]]"
+    ],
+    "id": "206",
+    "text": "I\"ve come to talk about life.",
+    "isQ": "false",
+    "nextQId": "207"
+  },
+  {
+    "pid": 7,
+    "position": {
+      "x": 1269,
+      "y": 104
+    },
+    "name": "locked",
+    "tags": [
+      ""
+    ],
+    "content": "  {{id}} 202 {{/id}} {{text}} 'There was a warming welcome for our hero this time' Greetings lad. You may come in. {{/text}} [[203]] {{isQ}} false {{/isQ}} {{nextQId}} 203 {{/nextQId}}",
+    "childrenNames": [
+      "[[203]]"
+    ],
+    "id": "202",
+    "text": "\"There was a warming welcome for our hero this time\"\r\nGreetings lad. You may come in.",
+    "isQ": "false",
+    "nextQId": "203"
+  },
+  {
+    "pid": 8,
+    "position": {
+      "x": 283,
+      "y": 624
+    },
+    "name": "207",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 207 {{/id}} {{text}} What do you mean talk about life, you are in your wildest years in which you learn the most. 'PP starts laughing' You can tell me what it is on your mind do not be shy. {{/text}} [[208]] {{isQ}} true {{/isQ}} {{ansArr}} 208 {{/ansArr}}",
+    "childrenNames": [
+      "[[208]]"
+    ],
+    "id": "207",
+    "text": "What do you mean talk about life, you are in your wildest years in which you learn the most.\r\n\"PP starts laughing\"\r\nYou can tell me what it is on your mind do not be shy.",
+    "isQ": "true",
+    "ansArr": "208"
+  },
+  {
+    "pid": 9,
+    "position": {
+      "x": 487,
+      "y": 626
+    },
+    "name": "208",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 208 {{/id}} {{text}} I was thinking if you might help me prepare for my interview. {{/text}} [[209]] {{isQ}} false {{/isQ}} {{nextQId}} 209 {{/nextQId}}",
+    "childrenNames": [
+      "[[209]]"
+    ],
+    "id": "208",
+    "text": "I was thinking if you might help me prepare for my interview.",
+    "isQ": "false",
+    "nextQId": "209"
+  },
+  {
+    "pid": 10,
+    "position": {
+      "x": 81,
+      "y": 795
+    },
+    "name": "209",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 209 {{/id}} {{text}} Mhm indeed. I have heard about your job interview from the neighbours.What i can tell you that you should remember 3 important steps to how to show that you are stable and perfect for the job. 1st step eye contact all the time-shows respect 2nd step-while speaking use your hand movement-that will help with showing how freely you can talk. 3rd step is to not panic if you do not know what to say, just take your time and get your thoughts together. {{/text}} [[210]] {{isQ}} true {{/isQ}} {{ansArr}} 210 {{/ansArr}}",
+    "childrenNames": [
+      "[[210]]"
+    ],
+    "id": "209",
+    "text": "Mhm indeed. I have heard about your job interview from the neighbours.What i can tell you that you should remember 3 important steps to how to show that you are stable and perfect for the job.\r\n1st step eye contact all the time-shows respect\r\n2nd step-while speaking use your hand movement-that will help with showing how freely you can talk.\r\n3rd step is to not panic if you do not know what to say, just take your time and get your thoughts together.",
+    "isQ": "true",
+    "ansArr": "210"
+  },
+  {
+    "pid": 11,
+    "position": {
+      "x": 281,
+      "y": 947
+    },
+    "name": "210",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 210 {{/id}} {{text}} Is this actually enough? {{/text}} [[211]] {{isQ}} false {{/isQ}} {{nextQId}} 211 {{/nextQId}}",
+    "childrenNames": [
+      "[[211]]"
+    ],
+    "id": "210",
+    "text": "Is this actually enough?",
+    "isQ": "false",
+    "nextQId": "211"
+  },
+  {
+    "pid": 12,
+    "position": {
+      "x": 102,
+      "y": 1099
+    },
+    "name": "211",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 211 {{/id}} {{text}} For what i know it works perfect with deals and conversations with people. You need to show them that you respect their position their lookings and their time which they spend with you in the room. {{/text}} [[212]] {{isQ}} true {{/isQ}} {{ansArr}} 212 {{/ansArr}}",
+    "childrenNames": [
+      "[[212]]"
+    ],
+    "id": "211",
+    "text": "For what i know it works perfect with deals and conversations with people. You need to show them that you respect their position their lookings and their time which they spend with you in the room.",
+    "isQ": "true",
+    "ansArr": "212"
+  },
+  {
+    "pid": 13,
+    "position": {
+      "x": 278,
+      "y": 1211
+    },
+    "name": "212",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 212 {{/id}} {{text}} Wow.Haven't though about that.That is a whole new perspective you just gave me.Thank you PP, thanks a lot.At least now i know i have higher chances of getting the job. {{/text}} [[213]] {{isQ}} false {{/isQ}} {{nextQId}} 213 {{/nextQId}}",
+    "childrenNames": [
+      "[[213]]"
+    ],
+    "id": "212",
+    "text": "Wow.Haven't though about that.That is a whole new perspective you just gave me.Thank you PP, thanks a lot.At least now i know i have higher chances of getting the job.",
+    "isQ": "false",
+    "nextQId": "213"
+  },
+  {
+    "pid": 14,
+    "position": {
+      "x": 119,
+      "y": 1356
+    },
+    "name": "213",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 213 {{/id}} {{text}} No the plesure was mine.Talking about this reminded me of the good days in which i was young.Yes i think i might actually call my budds to go out for a beer. 'PP starts to laugh again' It was nice talking to you now i need to do some unfinished work so if you will excuse me {{/text}} [[214]] {{isQ}} true {{/isQ}} {{ansArr}} 214 {{/ansArr}}",
+    "childrenNames": [
+      "[[214]]"
+    ],
+    "id": "213",
+    "text": "No the plesure was mine.Talking about this reminded me of the good days in which i was young.Yes i think i might actually call my budds to go out for a beer.\r\n\"PP starts to laugh again\"\r\nIt was nice talking to you now i need to do some unfinished work so if you will excuse me",
+    "isQ": "true",
+    "ansArr": "214"
+  },
+  {
+    "pid": 15,
+    "position": {
+      "x": 285,
+      "y": 1507
+    },
+    "name": "214",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 214 {{/id}} {{text}} Thanks a lot for the given time,you really helped me there or atleast boosted my courage. {{/text}} [[215]] {{isQ}} false {{/isQ}} {{nextQId}} 215 {{/nextQId}}",
+    "childrenNames": [
+      "[[215]]"
+    ],
+    "id": "214",
+    "text": "Thanks a lot for the given time,you really helped me there or atleast boosted my courage.",
+    "isQ": "false",
+    "nextQId": "215"
+  },
+  {
+    "pid": 16,
+    "position": {
+      "x": 684,
+      "y": 1707
+    },
+    "name": "215",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 215 {{/id}} {{text}} 'PP says goodbye and closes the door and outside Todd is walking away to his next destination {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 231 {{/ansArr}} [[231]]",
+    "childrenNames": [
+      "[[231]]"
+    ],
+    "id": "215",
+    "text": "\"PP says goodbye and closes the door and outside Todd is walking away to his next destination",
+    "isQ": "true",
+    "ansArr": "231"
+  },
+  {
+    "pid": 17,
+    "position": {
+      "x": 692,
+      "y": 616
+    },
+    "name": "216",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 216 {{/id}} {{text}} Why do i need to be so formally dressed for me to be let in here? {{/text}} [[217]] {{isQ}} false {{/isQ}} {{nextQId}} 217 {{/nextQId}}",
+    "childrenNames": [
+      "[[217]]"
+    ],
+    "id": "216",
+    "text": "Why do i need to be so formally dressed for me to be let in here?",
+    "isQ": "false",
+    "nextQId": "217"
+  },
+  {
+    "pid": 18,
+    "position": {
+      "x": 737,
+      "y": 794
+    },
+    "name": "217",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 217 {{/id}} {{text}} I am a bussines man and i expect my not well-know quests to dress formal so we can talk seriosly like we are making deal.The point is to know each other better.It is a complex etiquete with which i test the new people coming here if they are ready to face me straight on with their thoughts {{/text}} [[219]] {{isQ}} true {{/isQ}} {{ansArr}} 219 {{/ansArr}}",
+    "childrenNames": [
+      "[[219]]"
+    ],
+    "id": "217",
+    "text": "I am a bussines man and i expect my not well-know quests to dress formal so we can talk seriosly like we are making deal.The point is to know each other better.It is a complex etiquete with which i test the new people coming here if they are ready to face me straight on with their thoughts",
+    "isQ": "true",
+    "ansArr": "219"
+  },
+  {
+    "pid": 19,
+    "position": {
+      "x": 533,
+      "y": 1004
+    },
+    "name": "219",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 219 {{/id}} {{text}} Ouh so that's what was this about.I understand now your intentions because everybody has a different way of confronting people.Sorry about the question,how rude of me. {{/text}} [[220]] {{isQ}} false {{/isQ}} {{nextQId}} 220 {{/nextQId}}",
+    "childrenNames": [
+      "[[220]]"
+    ],
+    "id": "219",
+    "text": "Ouh so that's what was this about.I understand now your intentions because everybody has a different way of confronting people.Sorry about the question,how rude of me.",
+    "isQ": "false",
+    "nextQId": "220"
+  },
+  {
+    "pid": 20,
+    "position": {
+      "x": 801,
+      "y": 1245
+    },
+    "name": "220",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 220 {{/id}} {{text}} It was reasonable for you to ask.You are not the first one not shall be the last one to ask me this.But now while talking i got a better picture of you so your dressing up was not in vain.If you excuse me i have unfinished work waiting for me. {{/text}} [[221]] {{isQ}} true {{/isQ}} {{ansArr}} 221 {{/ansArr}}",
+    "childrenNames": [
+      "[[221]]"
+    ],
+    "id": "220",
+    "text": "It was reasonable for you to ask.You are not the first one not shall be the last one to ask me this.But now while talking i got a better picture of you so your dressing up was not in vain.If you excuse me i have unfinished work waiting for me.",
+    "isQ": "true",
+    "ansArr": "221"
+  },
+  {
+    "pid": 21,
+    "position": {
+      "x": 520,
+      "y": 1409
+    },
+    "name": "221",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 221 {{/id}} {{text}} Of course it was a pleasure talking with you.Thanks for the given time i will be on my way then. {{/text}} [[215]] {{isQ}} false {{/isQ}} {{nextQId}} 215 {{/nextQId}}",
+    "childrenNames": [
+      "[[215]]"
+    ],
+    "id": "221",
+    "text": "Of course it was a pleasure talking with you.Thanks for the given time i will be on my way then.",
+    "isQ": "false",
+    "nextQId": "215"
+  },
+  {
+    "pid": 22,
+    "position": {
+      "x": 1272,
+      "y": 647
+    },
+    "name": "222",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 222 {{/id}} {{text}} What are your connections with N,you friends? {{/text}} [[223]] {{isQ}} false {{/isQ}} {{nextQId}} 223 {{/nextQId}}",
+    "childrenNames": [
+      "[[223]]"
+    ],
+    "id": "222",
+    "text": "What are your connections with N,you friends?",
+    "isQ": "false",
+    "nextQId": "223"
+  },
+  {
+    "pid": 23,
+    "position": {
+      "x": 1020,
+      "y": 757
+    },
+    "name": "223",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 223 {{/id}} {{text}} Ah N is just,we had givings and takings with him.Some bussines stuff.He was actually the first person i met when moved to the neighbourhood.He is not a bad person but there is something creepy doing bussines with him and that is the reason we do not talk so much anymore. {{/text}} [[224]] {{isQ}} true {{/isQ}} {{ansArr}} 224 {{/ansArr}}",
+    "childrenNames": [
+      "[[224]]"
+    ],
+    "id": "223",
+    "text": "Ah N is just,we had givings and takings with him.Some bussines stuff.He was actually the first person i met when moved to the neighbourhood.He is not a bad person but there is something creepy doing bussines with him and that is the reason we do not talk so much anymore.",
+    "isQ": "true",
+    "ansArr": "224"
+  },
+  {
+    "pid": 24,
+    "position": {
+      "x": 1274,
+      "y": 877
+    },
+    "name": "224",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 224 {{/id}} {{text}} Creepy? {{/text}} [[225]] {{isQ}} false {{/isQ}} {{nextQId}} 225 {{/nextQId}}",
+    "childrenNames": [
+      "[[225]]"
+    ],
+    "id": "224",
+    "text": "Creepy?",
+    "isQ": "false",
+    "nextQId": "225"
+  },
+  {
+    "pid": 25,
+    "position": {
+      "x": 1042,
+      "y": 991
+    },
+    "name": "225",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 225 {{/id}} {{text}} I do not know how to explain it but i can say there is something scary and dangerious in his eyes while doing bussiness with him.I can not call it hatred or jelousity rather desire to have it all. {{/text}} [[226]] {{isQ}} true {{/isQ}} {{ansArr}} 226 {{/ansArr}}",
+    "childrenNames": [
+      "[[226]]"
+    ],
+    "id": "225",
+    "text": "I do not know how to explain it but i can say there is something scary and dangerious in his eyes while doing bussiness with him.I can not call it hatred or jelousity rather desire to have it all.",
+    "isQ": "true",
+    "ansArr": "226"
+  },
+  {
+    "pid": 26,
+    "position": {
+      "x": 1280,
+      "y": 1111
+    },
+    "name": "226",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 226 {{/id}} {{text}} Hmm interesting. {{/text}} [[227]] {{isQ}} false {{/isQ}} {{nextQId}} 227 {{/nextQId}}",
+    "childrenNames": [
+      "[[227]]"
+    ],
+    "id": "226",
+    "text": "Hmm interesting.",
+    "isQ": "false",
+    "nextQId": "227"
+  },
+  {
+    "pid": 27,
+    "position": {
+      "x": 1045,
+      "y": 1209
+    },
+    "name": "227",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 227 {{/id}} {{text}} Just an advice from me,be cautious around him and also be carefull what you talk about.You do not want to trigger that part of him which i have seen. Have in mind that his dog is dangerious so be carefull with it too. {{/text}} [[228]] {{isQ}} true {{/isQ}} {{ansArr}} 228 {{/ansArr}}",
+    "childrenNames": [
+      "[[228]]"
+    ],
+    "id": "227",
+    "text": "Just an advice from me,be cautious around him and also be carefull what you talk about.You do not want to trigger that part of him which i have seen.\r\nHave in mind that his dog is dangerious so be carefull with it too.",
+    "isQ": "true",
+    "ansArr": "228"
+  },
+  {
+    "pid": 28,
+    "position": {
+      "x": 1295,
+      "y": 1362
+    },
+    "name": "228",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 228 {{/id}} {{text}} Thanks a lot for your concern will have one in mind. {{/text}} [[229]] {{isQ}} false {{/isQ}} {{nextQId}} 229 {{/nextQId}}",
+    "childrenNames": [
+      "[[229]]"
+    ],
+    "id": "228",
+    "text": "Thanks a lot for your concern will have one in mind.",
+    "isQ": "false",
+    "nextQId": "229"
+  },
+  {
+    "pid": 29,
+    "position": {
+      "x": 1079,
+      "y": 1450
+    },
+    "name": "229",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 229 {{/id}} {{text}} Well excuse me,i need to finish some undealth work with. {{/text}} [[230]] {{isQ}} true {{/isQ}} {{ansArr}} 230 {{/ansArr}}",
+    "childrenNames": [
+      "[[230]]"
+    ],
+    "id": "229",
+    "text": "Well excuse me,i need to finish some undealth work with.",
+    "isQ": "true",
+    "ansArr": "230"
+  },
+  {
+    "pid": 30,
+    "position": {
+      "x": 1282,
+      "y": 1592
+    },
+    "name": "230",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 230 {{/id}} {{text}} Thanks a lot for the given time,you really helped me there or atleast boosted my courage.] {{/text}} [[215]] {{isQ}} false {{/isQ}} {{nextQId}} 215 {{/nextQId}}",
+    "childrenNames": [
+      "[[215]]"
+    ],
+    "id": "230",
+    "text": "Thanks a lot for the given time,you really helped me there or atleast boosted my courage.]",
+    "isQ": "false",
+    "nextQId": "215"
+  },
+  {
+    "pid": 31,
+    "position": {
+      "x": 692,
+      "y": 1871
+    },
+    "name": "231",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 231 {{/id}} {{text}} ... {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}}",
+    "childrenNames": [],
+    "id": "231",
+    "text": "...",
+    "isQ": "false",
+    "nextQId": "-1"
+  },
+  {
+    "pid": 1,
+    "position": {
+      "x": 1500,
+      "y": 25
+    },
+    "name": "100",
+    "tags": [
+      ""
+    ],
+    "content": "[[101]] [[102]] [[103]] {{id}} 100 {{/id}} {{text}} Hey! You! {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 101, 102, 103 {{/ansArr}}",
+    "childrenNames": [
+      "[[101]]",
+      "[[102]]",
+      "[[103]]"
+    ],
+    "id": "100",
+    "text": "Hey! You!",
+    "isQ": "true",
+    "ansArr": "101, 102, 103"
+  },
+  {
+    "pid": 2,
+    "position": {
+      "x": 1500,
+      "y": 175
+    },
+    "name": "101",
+    "tags": [
+      ""
+    ],
+    "content": "[[104]] {{id}} 101 {{/id}} {{text}} Are you talking to me? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 104 {{/nextQId}}",
+    "childrenNames": [
+      "[[104]]"
+    ],
+    "id": "101",
+    "text": "Are you talking to me?",
+    "isQ": "false",
+    "nextQId": "104"
+  },
+  {
+    "pid": 3,
+    "position": {
+      "x": 1650,
+      "y": 175
+    },
+    "name": "102",
+    "tags": [
+      ""
+    ],
+    "content": "[[105]] {{id}} 102 {{/id}} {{text}} Oh, what is it? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 105 {{/nextQId}}",
+    "childrenNames": [
+      "[[105]]"
+    ],
+    "id": "102",
+    "text": "Oh, what is it?",
+    "isQ": "false",
+    "nextQId": "105"
+  },
+  {
+    "pid": 4,
+    "position": {
+      "x": 1800,
+      "y": 175
+    },
+    "name": "103",
+    "tags": [
+      ""
+    ],
+    "content": "[[106]] {{id}} 103 {{/id}} {{text}} What the hell do you want? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 106 {{/nextQId}}",
+    "childrenNames": [
+      "[[106]]"
+    ],
+    "id": "103",
+    "text": "What the hell do you want?",
+    "isQ": "false",
+    "nextQId": "106"
+  },
+  {
+    "pid": 5,
+    "position": {
+      "x": 1500,
+      "y": 325
+    },
+    "name": "104",
+    "tags": [
+      ""
+    ],
+    "content": "[[107]] [[108]] [[109]] [[110]] {{id}} 104 {{/id}} {{text}} Yes of course! Or do you see anyone else around? Can you please do me a favor? {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 107, 108, 109, 110 {{/ansArr}}",
+    "childrenNames": [
+      "[[107]]",
+      "[[108]]",
+      "[[109]]",
+      "[[110]]"
+    ],
+    "id": "104",
+    "text": "Yes of course! Or do you see anyone else around? Can you please do me a favor?",
+    "isQ": "true",
+    "ansArr": "107, 108, 109, 110"
+  },
+  {
+    "pid": 6,
+    "position": {
+      "x": 1650,
+      "y": 325
+    },
+    "name": "105",
+    "tags": [
+      ""
+    ],
+    "content": "[[107]] [[108]] [[109]] [[110]] {{id}} 105 {{/id}} {{text}} Can you please do me a favor? {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 107, 108, 109, 110 {{/ansArr}}",
+    "childrenNames": [
+      "[[107]]",
+      "[[108]]",
+      "[[109]]",
+      "[[110]]"
+    ],
+    "id": "105",
+    "text": "Can you please do me a favor?",
+    "isQ": "true",
+    "ansArr": "107, 108, 109, 110"
+  },
+  {
+    "pid": 7,
+    "position": {
+      "x": 1825,
+      "y": 325
+    },
+    "name": "106",
+    "tags": [
+      ""
+    ],
+    "content": "[[1062]] {{id}} 106 {{/id}} {{text}} ... Nevermind. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 1062 {{/ansArr}}",
+    "childrenNames": [
+      "[[1062]]"
+    ],
+    "id": "106",
+    "text": "... Nevermind.",
+    "isQ": "true",
+    "ansArr": "1062"
+  },
+  {
+    "pid": 8,
+    "position": {
+      "x": 1500,
+      "y": 475
+    },
+    "name": "107",
+    "tags": [
+      ""
+    ],
+    "content": "[[111]] {{id}} 107 {{/id}} {{text}} Yes, but what will I get in return? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 111 {{/nextQId}} ",
+    "childrenNames": [
+      "[[111]]"
+    ],
+    "id": "107",
+    "text": "Yes, but what will I get in return?",
+    "isQ": "false",
+    "nextQId": "111"
+  },
+  {
+    "pid": 9,
+    "position": {
+      "x": 1650,
+      "y": 475
+    },
+    "name": "108",
+    "tags": [
+      ""
+    ],
+    "content": "[[111]] {{id}} 108 {{/id}} {{text}} No, why should I? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 111 {{/nextQId}} ",
+    "childrenNames": [
+      "[[111]]"
+    ],
+    "id": "108",
+    "text": "No, why should I?",
+    "isQ": "false",
+    "nextQId": "111"
+  },
+  {
+    "pid": 10,
+    "position": {
+      "x": 1350,
+      "y": 475
+    },
+    "name": "109",
+    "tags": [
+      ""
+    ],
+    "content": "[[115]] {{id}} 109 {{/id}} {{text}} Yeah, sure. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 115 {{/nextQId}}",
+    "childrenNames": [
+      "[[115]]"
+    ],
+    "id": "109",
+    "text": "Yeah, sure.",
+    "isQ": "false",
+    "nextQId": "115"
+  },
+  {
+    "pid": 11,
+    "position": {
+      "x": 1800,
+      "y": 475
+    },
+    "name": "110",
+    "tags": [
+      ""
+    ],
+    "content": "[[112]] {{id}} 110 {{/id}} {{text}} No, I have better things to do. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 112 {{/nextQId}} ",
+    "childrenNames": [
+      "[[112]]"
+    ],
+    "id": "110",
+    "text": "No, I have better things to do.",
+    "isQ": "false",
+    "nextQId": "112"
+  },
+  {
+    "pid": 12,
+    "position": {
+      "x": 1575,
+      "y": 625
+    },
+    "name": "111",
+    "tags": [
+      ""
+    ],
+    "content": "[[113]] [[114]] {{id}} 111 {{/id}} {{text}} If you help me, you will get a favor in return. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 113, 114 {{/ansArr}}",
+    "childrenNames": [
+      "[[113]]",
+      "[[114]]"
+    ],
+    "id": "111",
+    "text": "If you help me, you will get a favor in return.",
+    "isQ": "true",
+    "ansArr": "113, 114"
+  },
+  {
+    "pid": 13,
+    "position": {
+      "x": 1725,
+      "y": 925
+    },
+    "name": "112",
+    "tags": [
+      ""
+    ],
+    "content": "[[1122]] {{id}} 112 {{/id}} {{text}} Too bad. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 1122 {{/ansArr}} ",
+    "childrenNames": [
+      "[[1122]]"
+    ],
+    "id": "112",
+    "text": "Too bad.",
+    "isQ": "true",
+    "ansArr": "1122"
+  },
+  {
+    "pid": 14,
+    "position": {
+      "x": 1500,
+      "y": 775
+    },
+    "name": "113",
+    "tags": [
+      ""
+    ],
+    "content": "[[115]] {{id}} 113 {{/id}} {{text}} Alright, what is it? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 115 {{/nextQId}}",
+    "childrenNames": [
+      "[[115]]"
+    ],
+    "id": "113",
+    "text": "Alright, what is it?",
+    "isQ": "false",
+    "nextQId": "115"
+  },
+  {
+    "pid": 15,
+    "position": {
+      "x": 1650,
+      "y": 775
+    },
+    "name": "114",
+    "tags": [
+      ""
+    ],
+    "content": "[[112]] {{id}} 114 {{/id}} {{text}} Ah, I don't need that. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 112 {{/nextQId}}",
+    "childrenNames": [
+      "[[112]]"
+    ],
+    "id": "114",
+    "text": "Ah, I don't need that.",
+    "isQ": "false",
+    "nextQId": "112"
+  },
+  {
+    "pid": 16,
+    "position": {
+      "x": 1450,
+      "y": 925
+    },
+    "name": "115",
+    "tags": [
+      ""
+    ],
+    "content": "[[117]] [[118]] {{id}} 115 {{/id}} {{text}} You see, I am kinda stuck in here but I really need a my motor oil to fix my car. Can you please fetch it for me? {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 117, 118 {{/ansArr}}",
+    "childrenNames": [
+      "[[117]]",
+      "[[118]]"
+    ],
+    "id": "115",
+    "text": "You see, I am kinda stuck in here but I really need a my motor oil to fix my car. Can you please fetch it for me?",
+    "isQ": "true",
+    "ansArr": "117, 118"
+  },
+  {
+    "pid": 17,
+    "position": {
+      "x": 1375,
+      "y": 1075
+    },
+    "name": "117",
+    "tags": [
+      ""
+    ],
+    "content": "[[119]] {{id}} 117 {{/id}} {{text}} Yeah, alright. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 119 {{/nextQId}}",
+    "childrenNames": [
+      "[[119]]"
+    ],
+    "id": "117",
+    "text": "Yeah, alright.",
+    "isQ": "false",
+    "nextQId": "119"
+  },
+  {
+    "pid": 18,
+    "position": {
+      "x": 1525,
+      "y": 1075
+    },
+    "name": "118",
+    "tags": [
+      ""
+    ],
+    "content": "[[119]] {{id}} 118 {{/id}} {{text}} Yeah, sure. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 119 {{/nextQId}}",
+    "childrenNames": [
+      "[[119]]"
+    ],
+    "id": "118",
+    "text": "Yeah, sure.",
+    "isQ": "false",
+    "nextQId": "119"
+  },
+  {
+    "pid": 19,
+    "position": {
+      "x": 1450,
+      "y": 1225
+    },
+    "name": "119",
+    "tags": [
+      ""
+    ],
+    "content": "[[1202]] {{id}} 119 {{/id}} {{text}} Okay, here is my key. Please hurry up. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 1202 {{/ansArr}} ",
+    "childrenNames": [
+      "[[1202]]"
+    ],
+    "id": "119",
+    "text": "Okay, here is my key. Please hurry up.",
+    "isQ": "true",
+    "ansArr": "1202"
+  },
+  {
+    "pid": 20,
+    "position": {
+      "x": 1450,
+      "y": 1575
+    },
+    "name": "120",
+    "tags": [
+      ""
+    ],
+    "content": "[[121]] [[122]] [[123]] {{id}} 120 {{/id}} {{text}} Ah you're back. Did you find it? {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 121, 122, 123 {{/ansArr}} ",
+    "childrenNames": [
+      "[[121]]",
+      "[[122]]",
+      "[[123]]"
+    ],
+    "id": "120",
+    "text": "Ah you're back. Did you find it?",
+    "isQ": "true",
+    "ansArr": "121, 122, 123"
+  },
+  {
+    "pid": 21,
+    "position": {
+      "x": 1300,
+      "y": 1725
+    },
+    "name": "121",
+    "tags": [
+      ""
+    ],
+    "content": "[[124]] {{id}} 121 {{/id}} {{text}} You bastard! Why didn't you tell me you had a dog? That bitch was hella aggressive! {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 124 {{/nextQId}} ",
+    "childrenNames": [
+      "[[124]]"
+    ],
+    "id": "121",
+    "text": "You bastard! Why didn't you tell me you had a dog? That bitch was hella aggressive!",
+    "isQ": "false",
+    "nextQId": "124"
+  },
+  {
+    "pid": 22,
+    "position": {
+      "x": 1450,
+      "y": 1725
+    },
+    "name": "122",
+    "tags": [
+      ""
+    ],
+    "content": "[[125]] {{id}} 122 {{/id}} {{text}} Hey! You didn't mention you had a dog! {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 125 {{/nextQId}} ",
+    "childrenNames": [
+      "[[125]]"
+    ],
+    "id": "122",
+    "text": "Hey! You didn't mention you had a dog!",
+    "isQ": "false",
+    "nextQId": "125"
+  },
+  {
+    "pid": 23,
+    "position": {
+      "x": 1600,
+      "y": 1725
+    },
+    "name": "123",
+    "tags": [
+      ""
+    ],
+    "content": "[[126]] {{id}} 123 {{/id}} {{text}} Sorry, no, your dog won't let me pass.. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 126 {{/nextQId}} ",
+    "childrenNames": [
+      "[[126]]"
+    ],
+    "id": "123",
+    "text": "Sorry, no, your dog won't let me pass..",
+    "isQ": "false",
+    "nextQId": "126"
+  },
+  {
+    "pid": 24,
+    "position": {
+      "x": 1300,
+      "y": 1875
+    },
+    "name": "124",
+    "tags": [
+      ""
+    ],
+    "content": "[[127]] [[128]] {{id}} 124 {{/id}} {{text}} Excuse me? My dog is not aggressive! It is it's job to protect the house. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 127, 128 {{/ansArr}} ",
+    "childrenNames": [
+      "[[127]]",
+      "[[128]]"
+    ],
+    "id": "124",
+    "text": "Excuse me? My dog is not aggressive! It is it's job to protect the house.",
+    "isQ": "true",
+    "ansArr": "127, 128"
+  },
+  {
+    "pid": 25,
+    "position": {
+      "x": 1450,
+      "y": 1875
+    },
+    "name": "125",
+    "tags": [
+      ""
+    ],
+    "content": "[[129]] [[130]] {{id}} 125 {{/id}} {{text}} Oh yeah, sorry. I got him recently, we're still getting used to each other. Did he block your way? {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 129, 130 {{/ansArr}} ",
+    "childrenNames": [
+      "[[129]]",
+      "[[130]]"
+    ],
+    "id": "125",
+    "text": "Oh yeah, sorry. I got him recently, we're still getting used to each other. Did he block your way?",
+    "isQ": "true",
+    "ansArr": "129, 130"
+  },
+  {
+    "pid": 26,
+    "position": {
+      "x": 1600,
+      "y": 1875
+    },
+    "name": "126",
+    "tags": [
+      ""
+    ],
+    "content": "[[1302]] {{id}} 126 {{/id}} {{text}} Oh yeah, sorry. I got him recently, we're still getting used to each other. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 1302 {{/ansArr}}",
+    "childrenNames": [
+      "[[1302]]"
+    ],
+    "id": "126",
+    "text": "Oh yeah, sorry. I got him recently, we're still getting used to each other.",
+    "isQ": "true",
+    "ansArr": "1302"
+  },
+  {
+    "pid": 27,
+    "position": {
+      "x": 1150,
+      "y": 2025
+    },
+    "name": "127",
+    "tags": [
+      ""
+    ],
+    "content": "[[131]] {{id}} 127 {{/id}} {{text}} It was barking and shit. You should put a muffle on and keep it on a leash! That bastard is a threat to people! {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 131 {{/nextQId}} ",
+    "childrenNames": [
+      "[[131]]"
+    ],
+    "id": "127",
+    "text": "It was barking and shit. You should put a muffle on and keep it on a leash! That bastard is a threat to people!",
+    "isQ": "false",
+    "nextQId": "131"
+  },
+  {
+    "pid": 28,
+    "position": {
+      "x": 1150,
+      "y": 2175
+    },
+    "name": "131",
+    "tags": [
+      ""
+    ],
+    "content": "[[1312]] {{id}} 131 {{/id}} {{text}} Are you joking? ...You know what, screw this. Give me back my keys. I'll deal with this myself. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 1312 {{/ansArr}} ",
+    "childrenNames": [
+      "[[1312]]"
+    ],
+    "id": "131",
+    "text": "Are you joking? ...You know what, screw this. Give me back my keys. I'll deal with this myself.",
+    "isQ": "true",
+    "ansArr": "1312"
+  },
+  {
+    "pid": 29,
+    "position": {
+      "x": 1300,
+      "y": 2025
+    },
+    "name": "128",
+    "tags": [
+      ""
+    ],
+    "content": "[[126]] {{id}} 128 {{/id}} {{text}} Your dog was acting very unfriendly. Don't you teach him manners? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 126 {{/nextQId}} ",
+    "childrenNames": [
+      "[[126]]"
+    ],
+    "id": "128",
+    "text": "Your dog was acting very unfriendly. Don't you teach him manners?",
+    "isQ": "false",
+    "nextQId": "126"
+  },
+  {
+    "pid": 30,
+    "position": {
+      "x": 1450,
+      "y": 2025
+    },
+    "name": "129",
+    "tags": [
+      ""
+    ],
+    "content": "[[132]] {{id}} 129 {{/id}} {{text}} Yeah he did. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 132 {{/nextQId}}",
+    "childrenNames": [
+      "[[132]]"
+    ],
+    "id": "129",
+    "text": "Yeah he did.",
+    "isQ": "false",
+    "nextQId": "132"
+  },
+  {
+    "pid": 31,
+    "position": {
+      "x": 1600,
+      "y": 2025
+    },
+    "name": "130",
+    "tags": [
+      ""
+    ],
+    "content": "[[132]] {{id}} 130 {{/id}} {{text}} Yeah. He really scared me. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 132 {{/nextQId}}",
+    "childrenNames": [
+      "[[132]]"
+    ],
+    "id": "130",
+    "text": "Yeah. He really scared me.",
+    "isQ": "false",
+    "nextQId": "132"
+  },
+  {
+    "pid": 32,
+    "position": {
+      "x": 1525,
+      "y": 2175
+    },
+    "name": "132",
+    "tags": [
+      ""
+    ],
+    "content": "[[1322]] {{id}} 132 {{/id}} {{text}} Here, this is his favorite toy (hands ball). That should distract him. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 1322 {{/ansArr}}",
+    "childrenNames": [
+      "[[1322]]"
+    ],
+    "id": "132",
+    "text": "Here, this is his favorite toy (hands ball). That should distract him.",
+    "isQ": "true",
+    "ansArr": "1322"
+  },
+  {
+    "pid": 33,
+    "position": {
+      "x": 1525,
+      "y": 2500
+    },
+    "name": "133",
+    "tags": [
+      ""
+    ],
+    "content": "[[134]] [[135]] [[136]] [[137]] [[138]] {{id}} 133 {{/id}} {{text}} Oh hello again. Did you get my tool? {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 134, 135, 136, 137, 138 {{/ansArr}} ",
+    "childrenNames": [
+      "[[134]]",
+      "[[135]]",
+      "[[136]]",
+      "[[137]]",
+      "[[138]]"
+    ],
+    "id": "133",
+    "text": "Oh hello again. Did you get my tool?",
+    "isQ": "true",
+    "ansArr": "134, 135, 136, 137, 138"
+  },
+  {
+    "pid": 34,
+    "position": {
+      "x": 1300,
+      "y": 2650
+    },
+    "name": "134",
+    "tags": [
+      ""
+    ],
+    "content": "[[139]] {{id}} 134 {{/id}} {{text}} Hey! I got your stupid tool. That crazy dog barely let me pass. You really have to teach him a lot. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 134 {{/nextQId}} ",
+    "childrenNames": [
+      "[[139]]"
+    ],
+    "id": "134",
+    "text": "Hey! I got your stupid tool. That crazy dog barely let me pass. You really have to teach him a lot.",
+    "isQ": "false",
+    "nextQId": "139"
+  },
+  {
+    "pid": 35,
+    "position": {
+      "x": 1450,
+      "y": 2650
+    },
+    "name": "135",
+    "tags": [
+      ""
+    ],
+    "content": "[[140]] {{id}} 135 {{/id}} {{text}} I got your tool. That dog scared the shit out of me. Luckily, he got distracted by the ball. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 140 {{/nextQId}} ",
+    "childrenNames": [
+      "[[140]]"
+    ],
+    "id": "135",
+    "text": "I got your tool. That dog scared the shit out of me. Luckily, he got distracted by the ball.",
+    "isQ": "false",
+    "nextQId": "140"
+  },
+  {
+    "pid": 36,
+    "position": {
+      "x": 1600,
+      "y": 2650
+    },
+    "name": "136",
+    "tags": [
+      ""
+    ],
+    "content": "[[140]] {{id}} 136 {{/id}} {{text}} Here, I got your tool. Don't forget about my favor! {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 140 {{/nextQId}} ",
+    "childrenNames": [
+      "[[140]]"
+    ],
+    "id": "136",
+    "text": "Here, I got your tool. Don't forget about my favor!",
+    "isQ": "false",
+    "nextQId": "140"
+  },
+  {
+    "pid": 37,
+    "position": {
+      "x": 1750,
+      "y": 2650
+    },
+    "name": "137",
+    "tags": [
+      ""
+    ],
+    "content": "[[141]] {{id}} 137 {{/id}} {{text}} Here's your tool. I now saw that your dog is still almost only a puppy. It looked scared and continued to try to block me when I went inside your house. Luckily, I could get his trust with the ball. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 141 {{/nextQId}} ",
+    "childrenNames": [
+      "[[141]]"
+    ],
+    "id": "137",
+    "text": "Here's your tool. I now saw that your dog is still almost only a puppy. It looked scared and continued to try to block me when I went inside your house. Luckily, I could get his trust with the ball.",
+    "isQ": "false",
+    "nextQId": "141"
+  },
+  {
+    "pid": 38,
+    "position": {
+      "x": 1900,
+      "y": 2650
+    },
+    "name": "138",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 138 {{/id}} {{text}} Not yet. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}} ",
+    "childrenNames": [],
+    "id": "138",
+    "text": "Not yet.",
+    "isQ": "false",
+    "nextQId": "-1"
+  },
+  {
+    "pid": 39,
+    "position": {
+      "x": 1300,
+      "y": 2800
+    },
+    "name": "139",
+    "tags": [
+      ""
+    ],
+    "content": "[[142]] [[143]] {{id}} 139 {{/id}} {{text}} Wow, you can't be more rude. I don't even want to do you a favor now..] {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 142, 143 {{/ansArr}} ",
+    "childrenNames": [
+      "[[142]]",
+      "[[143]]"
+    ],
+    "id": "139",
+    "text": "Wow, you can't be more rude. I don't even want to do you a favor now..]",
+    "isQ": "true",
+    "ansArr": "142, 143"
+  },
+  {
+    "pid": 40,
+    "position": {
+      "x": 1550,
+      "y": 2800
+    },
+    "name": "140",
+    "tags": [
+      ""
+    ],
+    "content": "[[145]] {{id}} 140 {{/id}} {{text}} Thanks. Sure, come to me when you know what you need from me. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 145 {{/ansArr}} ",
+    "childrenNames": [
+      "[[145]]"
+    ],
+    "id": "140",
+    "text": "Thanks. Sure, come to me when you know what you need from me.",
+    "isQ": "true",
+    "ansArr": "145"
+  },
+  {
+    "pid": 41,
+    "position": {
+      "x": 1750,
+      "y": 2800
+    },
+    "name": "141",
+    "tags": [
+      ""
+    ],
+    "content": "[[145]] {{id}} 141 {{/id}} {{text}} Yeah he is still really playful! I am happy you both got along well. Come to me whenever you need something. Ah and welcome to our neighborhood! {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 145 {{/ansArr}} ",
+    "childrenNames": [
+      "[[145]]"
+    ],
+    "id": "141",
+    "text": "Yeah he is still really playful! I am happy you both got along well. Come to me whenever you need something. Ah and welcome to our neighborhood!",
+    "isQ": "true",
+    "ansArr": "145"
+  },
+  {
+    "pid": 42,
+    "position": {
+      "x": 1225,
+      "y": 2950
+    },
+    "name": "142",
+    "tags": [
+      ""
+    ],
+    "content": "[[144]] {{id}} 142 {{/id}} {{text}} You owe me one! {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 144 {{/nextQId}} ",
+    "childrenNames": [
+      "[[144]]"
+    ],
+    "id": "142",
+    "text": "You owe me one!",
+    "isQ": "false",
+    "nextQId": "144"
+  },
+  {
+    "pid": 43,
+    "position": {
+      "x": 1375,
+      "y": 2950
+    },
+    "name": "143",
+    "tags": [
+      ""
+    ],
+    "content": "[[144]] {{id}} 143 {{/id}} {{text}} Don't fucking pull back. I got your stupid tool for you. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 144 {{/nextQId}} ",
+    "childrenNames": [
+      "[[144]]"
+    ],
+    "id": "143",
+    "text": "Don't fucking pull back. I got your stupid tool for you.",
+    "isQ": "false",
+    "nextQId": "144"
+  },
+  {
+    "pid": 44,
+    "position": {
+      "x": 1300,
+      "y": 3100
+    },
+    "name": "144",
+    "tags": [
+      ""
+    ],
+    "content": "[[145]] {{id}} 144 {{/id}} {{text}} Yeah I know. Come to me when you need a hand for something.. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 145 {{/ansArr}} ",
+    "childrenNames": [
+      "[[145]]"
+    ],
+    "id": "144",
+    "text": "Yeah I know. Come to me when you need a hand for something..",
+    "isQ": "true",
+    "ansArr": "145"
+  },
+  {
+    "pid": 45,
+    "position": {
+      "x": 1525,
+      "y": 3300
+    },
+    "name": "146",
+    "tags": [
+      ""
+    ],
+    "content": "[[147]] [[148]] [[149]] {{id}} 146 {{/id}} {{text}} Hello there, neighbor. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 147, 148, 149 {{/ansArr}} ",
+    "childrenNames": [
+      "[[147]]",
+      "[[148]]",
+      "[[149]]"
+    ],
+    "id": "146",
+    "text": "Hello there, neighbor.",
+    "isQ": "true",
+    "ansArr": "147, 148, 149"
+  },
+  {
+    "pid": 46,
+    "position": {
+      "x": 1375,
+      "y": 3450
+    },
+    "name": "147",
+    "tags": [
+      ""
+    ],
+    "content": "[[150]] {{id}} 147 {{/id}} {{text}} Hey douchebag. I want my favor now. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 150 {{/nextQId}} ",
+    "childrenNames": [
+      "[[150]]"
+    ],
+    "id": "147",
+    "text": "Hey douchebag. I want my favor now.",
+    "isQ": "false",
+    "nextQId": "150"
+  },
+  {
+    "pid": 47,
+    "position": {
+      "x": 1525,
+      "y": 3450
+    },
+    "name": "148",
+    "tags": [
+      ""
+    ],
+    "content": "[[151]] {{id}} 148 {{/id}} {{text}} Sorry to interrupt but I need your help.. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 151 {{/nextQId}} ",
+    "childrenNames": [
+      "[[151]]"
+    ],
+    "id": "148",
+    "text": "Sorry to interrupt but I need your help..",
+    "isQ": "false",
+    "nextQId": "151"
+  },
+  {
+    "pid": 48,
+    "position": {
+      "x": 1675,
+      "y": 3450
+    },
+    "name": "149",
+    "tags": [
+      ""
+    ],
+    "content": "[[152]] {{id}} 149 {{/id}} {{text}} Hello again. I could really use that favor now. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 152 {{/nextQId}} ",
+    "childrenNames": [
+      "[[152]]"
+    ],
+    "id": "149",
+    "text": "Hello again. I could really use that favor now.",
+    "isQ": "false",
+    "nextQId": "152"
+  },
+  {
+    "pid": 49,
+    "position": {
+      "x": 1375,
+      "y": 3600
+    },
+    "name": "150",
+    "tags": [
+      ""
+    ],
+    "content": "[[153]] [[154]] {{id}} 150 {{/id}} {{text}} ...'Sigh' What is it? {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 153, 154 {{/ansArr}} ",
+    "childrenNames": [
+      "[[153]]",
+      "[[154]]"
+    ],
+    "id": "150",
+    "text": "...'Sigh' What is it?",
+    "isQ": "true",
+    "ansArr": "153, 154"
+  },
+  {
+    "pid": 50,
+    "position": {
+      "x": 1525,
+      "y": 3600
+    },
+    "name": "151",
+    "tags": [
+      ""
+    ],
+    "content": "[[155]] {{id}} 151 {{/id}} {{text}} No worries. What is it? {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 155 {{/ansArr}} ",
+    "childrenNames": [
+      "[[155]]"
+    ],
+    "id": "151",
+    "text": "No worries. What is it?",
+    "isQ": "true",
+    "ansArr": "155"
+  },
+  {
+    "pid": 51,
+    "position": {
+      "x": 1675,
+      "y": 3600
+    },
+    "name": "152",
+    "tags": [
+      ""
+    ],
+    "content": "[[155]] {{id}} 152 {{/id}} {{text}} Sure, what is it? {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 155 {{/ansArr}} ",
+    "childrenNames": [
+      "[[155]]"
+    ],
+    "id": "152",
+    "text": "Sure, what is it?",
+    "isQ": "true",
+    "ansArr": "155"
+  },
+  {
+    "pid": 52,
+    "position": {
+      "x": 1300,
+      "y": 3750
+    },
+    "name": "153",
+    "tags": [
+      ""
+    ],
+    "content": "[[156]] {{id}} 153 {{/id}} {{text}} That bitch down the street is an ignorant asshole. He won't talk to me. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 156 {{/nextQId}} ",
+    "childrenNames": [
+      "[[156]]"
+    ],
+    "id": "153",
+    "text": "That bitch down the street is an ignorant asshole. He won't talk to me.",
+    "isQ": "false",
+    "nextQId": "156"
+  },
+  {
+    "pid": 53,
+    "position": {
+      "x": 1450,
+      "y": 3750
+    },
+    "name": "154",
+    "tags": [
+      ""
+    ],
+    "content": "[[157]] {{id}} 154 {{/id}} {{text}} The dude down the street. He won't talk to me. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 157 {{/nextQId}} ",
+    "childrenNames": [
+      "[[157]]"
+    ],
+    "id": "154",
+    "text": "The dude down the street. He won't talk to me.",
+    "isQ": "false",
+    "nextQId": "157"
+  },
+  {
+    "pid": 54,
+    "position": {
+      "x": 1600,
+      "y": 3750
+    },
+    "name": "155",
+    "tags": [
+      ""
+    ],
+    "content": "[[157]] {{id}} 155 {{/id}} {{text}} The person down the street. He won't talk to me. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 157 {{/nextQId}} ",
+    "childrenNames": [
+      "[[157]]"
+    ],
+    "id": "155",
+    "text": "The person down the street. He won't talk to me.",
+    "isQ": "false",
+    "nextQId": "157"
+  },
+  {
+    "pid": 55,
+    "position": {
+      "x": 1300,
+      "y": 3900
+    },
+    "name": "156",
+    "tags": [
+      ""
+    ],
+    "content": "[[158]] [[159]] [[160]] [[161]] {{id}} 156 {{/id}} {{text}} Well that goes both ways... {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 158, 159, 160, 161 {{/ansArr}} ",
+    "childrenNames": [
+      "[[158]]",
+      "[[159]]",
+      "[[160]]",
+      "[[161]]"
+    ],
+    "id": "156",
+    "text": "Well that goes both ways...",
+    "isQ": "true",
+    "ansArr": "158, 159, 160, 161"
+  },
+  {
+    "pid": 56,
+    "position": {
+      "x": 1600,
+      "y": 3900
+    },
+    "name": "157",
+    "tags": [
+      ""
+    ],
+    "content": "[[162]] [[163]] [[164]] {{id}} 157 {{/id}} {{text}} Ah he is really selective. He hates when people waste their time. You have to show him that you are worth his attention. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 162, 163, 164 {{/ansArr}} ",
+    "childrenNames": [
+      "[[162]]",
+      "[[163]]",
+      "[[164]]"
+    ],
+    "id": "157",
+    "text": "Ah he is really selective. He hates when people waste their time. You have to show him that you are worth his attention.",
+    "isQ": "true",
+    "ansArr": "162, 163, 164"
+  },
+  {
+    "pid": 57,
+    "position": {
+      "x": 1000,
+      "y": 4125
+    },
+    "name": "158",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 158 {{/id}} {{text}} Fuck this shit! I will figure this out myself. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}} ",
+    "childrenNames": [],
+    "id": "158",
+    "text": "Fuck this shit! I will figure this out myself.",
+    "isQ": "false",
+    "nextQId": "-1"
+  },
+  {
+    "pid": 58,
+    "position": {
+      "x": 1150,
+      "y": 4050
+    },
+    "name": "159",
+    "tags": [
+      ""
+    ],
+    "content": "[[165]] {{id}} 159 {{/id}} {{text}} Are you fucking serious?? Don't be such a bitch and tell me! {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 165 {{/nextQId}} ",
+    "childrenNames": [
+      "[[165]]"
+    ],
+    "id": "159",
+    "text": "Are you fucking serious?? Don't be such a bitch and tell me!",
+    "isQ": "false",
+    "nextQId": "165"
+  },
+  {
+    "pid": 59,
+    "position": {
+      "x": 1300,
+      "y": 4050
+    },
+    "name": "160",
+    "tags": [
+      ""
+    ],
+    "content": "[[165]] {{id}} 160 {{/id}} {{text}} I heard that!! You're on thin fucking ice right now! So. Tell me! How can I make him talk to me? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 165 {{/nextQId}} ",
+    "childrenNames": [
+      "[[165]]"
+    ],
+    "id": "160",
+    "text": "I heard that!! You're on thin fucking ice right now! So. Tell me! How can I make him talk to me?",
+    "isQ": "false",
+    "nextQId": "165"
+  },
+  {
+    "pid": 60,
+    "position": {
+      "x": 1450,
+      "y": 4050
+    },
+    "name": "161",
+    "tags": [
+      ""
+    ],
+    "content": "[[166]] {{id}} 161 {{/id}} {{text}} ...Seriously? I heard that. ... But what do I do? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 166 {{/nextQId}} ",
+    "childrenNames": [
+      "[[166]]"
+    ],
+    "id": "161",
+    "text": "...Seriously? I heard that. ... But what do I do?",
+    "isQ": "false",
+    "nextQId": "166"
+  },
+  {
+    "pid": 61,
+    "position": {
+      "x": 1600,
+      "y": 4050
+    },
+    "name": "162",
+    "tags": [
+      ""
+    ],
+    "content": "[[167]] {{id}} 162 {{/id}} {{text}} So what do I do? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 167 {{/nextQId}} ",
+    "childrenNames": [
+      "[[167]]"
+    ],
+    "id": "162",
+    "text": "So what do I do?",
+    "isQ": "false",
+    "nextQId": "167"
+  },
+  {
+    "pid": 62,
+    "position": {
+      "x": 1750,
+      "y": 4050
+    },
+    "name": "163",
+    "tags": [
+      ""
+    ],
+    "content": "[[167]] {{id}} 163 {{/id}} {{text}} How do I change his mind about myself? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 167 {{/nextQId}} ",
+    "childrenNames": [
+      "[[167]]"
+    ],
+    "id": "163",
+    "text": "How do I change his mind about myself?",
+    "isQ": "false",
+    "nextQId": "167"
+  },
+  {
+    "pid": 63,
+    "position": {
+      "x": 1900,
+      "y": 4050
+    },
+    "name": "164",
+    "tags": [
+      ""
+    ],
+    "content": "[[167]] {{id}} 164 {{/id}} {{text}} Wow seriously?? That's so pretentious.. How do I make him like me? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 167 {{/nextQId}} ",
+    "childrenNames": [
+      "[[167]]"
+    ],
+    "id": "164",
+    "text": "Wow seriously?? That's so pretentious.. How do I make him like me?",
+    "isQ": "false",
+    "nextQId": "167"
+  },
+  {
+    "pid": 64,
+    "position": {
+      "x": 1225,
+      "y": 4200
+    },
+    "name": "165",
+    "tags": [
+      ""
+    ],
+    "content": "[[158]] {{id}} 165 {{/id}} {{text}} .... You know what? I changed my mind. You're not worth it. Fuck off. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 158 {{/ansArr}} ",
+    "childrenNames": [
+      "[[158]]"
+    ],
+    "id": "165",
+    "text": ".... You know what? I changed my mind. You're not worth it. Fuck off.",
+    "isQ": "true",
+    "ansArr": "158"
+  },
+  {
+    "pid": 65,
+    "position": {
+      "x": 1450,
+      "y": 4200
+    },
+    "name": "166",
+    "tags": [
+      ""
+    ],
+    "content": "[[168]] [[169]] {{id}} 166 {{/id}} {{text}} Ah, well he is really selective. He hates when people waste their time. You have to show him that you are worth his attention. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 168, 169 {{/ansArr}} ",
+    "childrenNames": [
+      "[[168]]",
+      "[[169]]"
+    ],
+    "id": "166",
+    "text": "Ah, well he is really selective. He hates when people waste their time. You have to show him that you are worth his attention.",
+    "isQ": "true",
+    "ansArr": "168, 169"
+  },
+  {
+    "pid": 66,
+    "position": {
+      "x": 1750,
+      "y": 4200
+    },
+    "name": "167",
+    "tags": [
+      ""
+    ],
+    "content": "[[170]] [[171]] [[172]] {{id}} 167 {{/id}} {{text}} You have to impress him. Start with the basics: you should look professional. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 170, 171, 172 {{/ansArr}} ",
+    "childrenNames": [
+      "[[170]]",
+      "[[171]]",
+      "[[172]]"
+    ],
+    "id": "167",
+    "text": "You have to impress him. Start with the basics: you should look professional.",
+    "isQ": "true",
+    "ansArr": "170, 171, 172"
+  },
+  {
+    "pid": 67,
+    "position": {
+      "x": 1375,
+      "y": 4350
+    },
+    "name": "168",
+    "tags": [
+      ""
+    ],
+    "content": "[[173]] {{id}} 168 {{/id}} {{text}} Ahahahaha seriously?? So how do I change his mind? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 173 {{/nextQId}} ",
+    "childrenNames": [
+      "[[173]]"
+    ],
+    "id": "168",
+    "text": "Ahahahaha seriously?? So how do I change his mind?",
+    "isQ": "false",
+    "nextQId": "173"
+  },
+  {
+    "pid": 68,
+    "position": {
+      "x": 1525,
+      "y": 4350
+    },
+    "name": "169",
+    "tags": [
+      ""
+    ],
+    "content": "[[173]] {{id}} 169 {{/id}} {{text}} Dude that's hella pretentious.. So what do I do? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 173 {{/nextQId}} ",
+    "childrenNames": [
+      "[[173]]"
+    ],
+    "id": "169",
+    "text": "Dude that's hella pretentious.. So what do I do?",
+    "isQ": "false",
+    "nextQId": "173"
+  },
+  {
+    "pid": 69,
+    "position": {
+      "x": 1675,
+      "y": 4350
+    },
+    "name": "170",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 170 {{/id}} {{text}} Okay, thank you. I can work with that. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}}",
+    "childrenNames": [],
+    "id": "170",
+    "text": "Okay, thank you. I can work with that.",
+    "isQ": "false",
+    "nextQId": "-1"
+  },
+  {
+    "pid": 70,
+    "position": {
+      "x": 1825,
+      "y": 4350
+    },
+    "name": "171",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 171 {{/id}} {{text}} Mmmmh alright. Thanks. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}}",
+    "childrenNames": [],
+    "id": "171",
+    "text": "Mmmmh alright. Thanks.",
+    "isQ": "false",
+    "nextQId": "-1"
+  },
+  {
+    "pid": 71,
+    "position": {
+      "x": 1700,
+      "y": 4650
+    },
+    "name": "172",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 172 {{/id}} {{text}} Wow that was barely a hint.. Well, I'll think of something.. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}} ",
+    "childrenNames": [],
+    "id": "172",
+    "text": "Wow that was barely a hint.. Well, I'll think of something..",
+    "isQ": "false",
+    "nextQId": "-1"
+  },
+  {
+    "pid": 72,
+    "position": {
+      "x": 1450,
+      "y": 4500
+    },
+    "name": "173",
+    "tags": [
+      ""
+    ],
+    "content": "[[172]] {{id}} 173 {{/id}} {{text}} I don't know.. Impress him or something.. {{/text}} {{isQ}} true {{/isQ}} {{ansArr}} 172 {{/ansArr}} ",
+    "childrenNames": [
+      "[[172]]"
+    ],
+    "id": "173",
+    "text": "I don't know.. Impress him or something..",
+    "isQ": "true",
+    "ansArr": "172"
+  },
+  {
+    "pid": 73,
+    "position": {
+      "x": 1725,
+      "y": 1075
+    },
+    "name": "1122",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 1122 {{/id}} {{text}} ... {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}} ",
+    "childrenNames": [],
+    "id": "1122",
+    "text": "...",
+    "isQ": "false",
+    "nextQId": "-1"
+  },
+  {
+    "pid": 74,
+    "position": {
+      "x": 1950,
+      "y": 475
+    },
+    "name": "1062",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 1062 {{/id}} {{text}} ... {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}} ",
+    "childrenNames": [],
+    "id": "1062",
+    "text": "...",
+    "isQ": "false",
+    "nextQId": "-1"
+  },
+  {
+    "pid": 75,
+    "position": {
+      "x": 1450,
+      "y": 1375
+    },
+    "name": "1202",
+    "tags": [
+      ""
+    ],
+    "content": "[[120]] {{id}} 1202 {{/id}} {{text}} I'll be back soon {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 120 {{/nextQId}} ",
+    "childrenNames": [
+      "[[120]]"
+    ],
+    "id": "1202",
+    "text": "I'll be back soon",
+    "isQ": "false",
+    "nextQId": "120"
+  },
+  {
+    "pid": 76,
+    "position": {
+      "x": 1150,
+      "y": 2325
+    },
+    "name": "1312",
+    "tags": [
+      ""
+    ],
+    "content": "{{id}} 1312 {{/id}} {{text}} ... I didn't want to do it anyways. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} -1 {{/nextQId}} ",
+    "childrenNames": [],
+    "id": "1312",
+    "text": "... I didn't want to do it anyways.",
+    "isQ": "false",
+    "nextQId": "-1"
+  },
+  {
+    "pid": 77,
+    "position": {
+      "x": 1525,
+      "y": 2325
+    },
+    "name": "1322",
+    "tags": [
+      ""
+    ],
+    "content": "[[133]] {{id}} 1322 {{/id}} {{text}} Thanks. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 133 {{/nextQId}} ",
+    "childrenNames": [
+      "[[133]]"
+    ],
+    "id": "1322",
+    "text": "Thanks.",
+    "isQ": "false",
+    "nextQId": "133"
+  },
+  {
+    "pid": 78,
+    "position": {
+      "x": 1525,
+      "y": 3150
+    },
+    "name": "145",
+    "tags": [
+      ""
+    ],
+    "content": "[[146]] {{id}} 145 {{/id}} {{text}} Thanks. {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 146 {{/nextQId}} ",
+    "childrenNames": [
+      "[[146]]"
+    ],
+    "id": "145",
+    "text": "Thanks.",
+    "isQ": "false",
+    "nextQId": "146"
+  },
+  {
+    "pid": 79,
+    "position": {
+      "x": 1750,
+      "y": 2025
+    },
+    "name": "1302",
+    "tags": [
+      ""
+    ],
+    "content": "[[132]] {{id}} 1302 {{/id}} {{text}} So what do I do? {{/text}} {{isQ}} false {{/isQ}} {{nextQId}} 132 {{/nextQId}}",
+    "childrenNames": [
+      "[[132]]"
+    ],
+    "id": "1302",
+    "text": "So what do I do?",
+    "isQ": "false",
+    "nextQId": "132"
   }
 ]

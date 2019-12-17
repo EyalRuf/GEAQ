@@ -1,2 +1,3 @@
-if (isBoxFocussed)	
+if (isBoxFocussed) {
 	selectedAnswerHighlighted = true;
+}
