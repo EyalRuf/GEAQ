@@ -1,0 +1,10 @@
+// Constants
+ITEM_BREATH_START_SCALE = 1.0;
+ITEM_BREATH_END_SCALE = 1.5;
+ITEM_BREATH_INTERVAL = 5.0;
+ITEM_BREATH_OFFSET = 0.0;
+HIGHLIGHTED_RANGE = 75;
+HIGHLIGHTED_COLOR = c_aqua;
+
+// Variables
+playerInVicinity = false;

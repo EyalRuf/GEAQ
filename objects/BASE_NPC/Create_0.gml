@@ -6,4 +6,3 @@ RESET_BUMP_RANGE = 175;
 bumped = false;
 retracting = false;
 interactingWithPlayer = false;
-sprite_index = bottomSprite;

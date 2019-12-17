@@ -1,7 +1,8 @@
 /// begin_player_npc_interaction(npc)
 /// @param npc - interacting with
 
-var npcFromParam = argument0;
+var npcIdFromParam = argument0;
+
 Player.interacting = true;
-Player.interactingNpcX = npcFromParam.x;
-Player.interactingNpcY = npcFromParam.y;
+Player.interactingNpcX = variable_instance_get(npcIdFromParam, "x");
+Player.interactingNpcY = variable_instance_get(npcIdFromParam, "y");

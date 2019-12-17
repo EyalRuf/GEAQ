@@ -1,0 +1,1 @@
+playerInVicinity = false;
