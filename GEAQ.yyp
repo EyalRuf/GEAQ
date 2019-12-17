@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "041237ab-932d-49b5-be9d-e257d78a05b1",
+            "Value": {
+                "id": "7fce8b1c-6385-4ac5-8257-a21942082546",
+                "resourcePath": "objects\\mansion\\mansion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c0a0b14-9c83-44a4-b9d1-40cb0f14bc66",
             "Value": {
                 "id": "19767385-f6c0-4334-a919-2e3597f82985",
@@ -83,6 +91,14 @@
             "Value": {
                 "id": "b4578bd7-5e27-45bc-b459-d55ed7efcf57",
                 "resourcePath": "objects\\VerticalWall\\VerticalWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2a082420-fd51-469e-a9e9-855898ac304f",
+            "Value": {
+                "id": "f16aa6e8-dac0-4984-82e0-1489f297d143",
+                "resourcePath": "objects\\collisionshouses\\collisionshouses.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -263,11 +279,27 @@
             }
         },
         {
+            "Key": "8c42207b-be11-4056-a316-443bbf42ac57",
+            "Value": {
+                "id": "abc8162c-cbb5-49f3-b87b-7496a9640211",
+                "resourcePath": "sprites\\bighousesprite\\bighousesprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8d0f0ee4-5178-48cd-8dfd-c3a8927d34f9",
             "Value": {
                 "id": "eb6f2c37-8896-46ee-998c-184bf1766123",
                 "resourcePath": "views\\8d0f0ee4-5178-48cd-8dfd-c3a8927d34f9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8d4d7021-d948-4e06-b1eb-49f89241eeec",
+            "Value": {
+                "id": "013fb5eb-175b-46d3-84ca-bb1107d7fc74",
+                "resourcePath": "objects\\smallhouse\\smallhouse.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -327,10 +359,26 @@
             }
         },
         {
+            "Key": "af429e61-85dc-4876-87c3-84b84a3a3d72",
+            "Value": {
+                "id": "a625b59f-458f-41ee-adf6-0c8d51a5fd77",
+                "resourcePath": "sprites\\smallhousesprite\\smallhousesprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b0fafe38-3472-4aec-a03e-6ce0bc1c50da",
             "Value": {
                 "id": "b545bb20-ba68-456f-9cbd-f838a7f7caef",
                 "resourcePath": "sprites\\walk_right\\walk_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b4017452-19c2-4c00-b0c5-2a85ed42fa5e",
+            "Value": {
+                "id": "048a6fda-c6f2-4216-b703-a98c11bdb300",
+                "resourcePath": "sprites\\mansionsprite\\mansionsprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -356,6 +404,14 @@
                 "id": "1a679351-8ddd-4ae7-b012-f0faf99c1fcd",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d301a1bf-b6fa-40d6-b7fb-7c8116ab7ac3",
+            "Value": {
+                "id": "2155e44e-014b-4533-aa7e-045694a34b93",
+                "resourcePath": "objects\\bighouse\\bighouse.yy",
+                "resourceType": "GMObject"
             }
         },
         {
