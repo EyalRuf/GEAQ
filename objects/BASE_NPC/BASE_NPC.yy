@@ -117,6 +117,25 @@
             "value": "0",
             "varName": "rightSprite",
             "varType": 5
+        },
+        {
+            "id": "9bb2539a-e608-4c1c-8d5d-f0e35a520545",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": [
+                "\"Item 0\"",
+                "\"Item 1\"",
+                "\"Item 2\"",
+                "\"Item 3\""
+            ],
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "dialogNodeId",
+            "varType": 1
         }
     ],
     "solid": false,

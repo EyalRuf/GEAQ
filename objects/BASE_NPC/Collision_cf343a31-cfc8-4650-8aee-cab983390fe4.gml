@@ -15,5 +15,9 @@ if (!bumped) {
 	// Npc is now being bumped
 	bumped = true;
 	interactingWithPlayer = true;
+	
+	if (dialogNodeId != -1) {
+		begin_player_npc_interaction(id);
+		open_dialog_box(id);
+	}
 }
-

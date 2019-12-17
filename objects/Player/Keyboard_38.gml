@@ -1,17 +1,7 @@
-maxSpeed = MAX_DIRECTIONAL_SPEED;
-
-if (keyboard_check(P2_UP_KEY)) {
-	maxSpeed = COMBINED_MAX_DIRECTIONAL_SPEED;
-}
-
-if (vspeed > -maxSpeed) {
-	vspeed--;
-}
-
-if (vspeed > 0) {
-	vspeed = 1;
-} else {
-	if (sprite_index != walk_top) {
-		sprite_index = walk_top;
+if (canMove) {
+	if (vspeed > -MAX_DIRECTIONAL_SPEED) {
+		vspeed--;
 	}
+
+	sprite_index = walk_top;
 }
