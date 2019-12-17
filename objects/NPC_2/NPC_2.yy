@@ -1,52 +1,52 @@
 {
-    "id": "7076cb11-c7e0-40df-b775-09ba3ad568db",
+    "id": "58e2618a-c955-480a-8f50-9277766290ca",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "NPC_0",
+    "name": "NPC_2",
     "eventList": [
         
     ],
     "maskSpriteId": "1909d071-2336-4449-b4e8-78a9a41ceba0",
     "overriddenProperties": [
         {
-            "id": "066db9bd-d62d-4441-afc7-bb3be29c3569",
+            "id": "ca56848e-6ec1-470e-8c3e-f6e5b20fa68b",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
             "propertyId": "81c42b9f-95c3-4ca5-99d7-e6de03251df7",
-            "value": "NPC_0_idle_bottom"
+            "value": "NPC_2_idle_bottom"
         },
         {
-            "id": "f0fa7289-d1c1-4528-b6c6-a50a776bffc3",
+            "id": "a25383e2-2036-4923-8e65-59ed993a7849",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
             "propertyId": "2bcc0973-a439-466d-9a81-64e2ade1daa4",
-            "value": "NPC_0_idle_top"
+            "value": "NPC_2_idle_top"
         },
         {
-            "id": "4ff445e6-6107-4263-bd92-5f02c0e7dde9",
+            "id": "d27c701d-bfcd-4dd2-83dc-695cc52da20c",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
             "propertyId": "be2a9812-c83d-45fa-ac0e-f3b2e2eb900e",
-            "value": "NPC_0_idle_left"
+            "value": "NPC_2_idle_left"
         },
         {
-            "id": "36dae73e-8fe7-4972-ae94-8240f872dd8b",
+            "id": "cc53dba3-8f58-476b-b4ab-f796a125694b",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
             "propertyId": "1335ec7f-50e9-45b3-bc16-23bfa37622f2",
-            "value": "NPC_0_idle_right"
+            "value": "NPC_2_idle_right"
         },
         {
-            "id": "005c84f1-b432-4119-8237-76f137acbc1d",
+            "id": "2b5dbbb3-b381-40ce-85f9-9c7ee79967f7",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
             "propertyId": "9bb2539a-e608-4c1c-8d5d-f0e35a520545",
-            "value": "100"
+            "value": "0"
         }
     ],
     "parentObjectId": "79614774-7561-4bb4-a35f-91be719d3d01",
@@ -65,6 +65,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1909d071-2336-4449-b4e8-78a9a41ceba0",
+    "spriteId": "4699dce7-d298-4c49-9bd5-a0c62da527f3",
     "visible": true
 }

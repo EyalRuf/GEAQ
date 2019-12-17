@@ -102,9 +102,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "BASE_NPC",
-            "varName": "npc",
-            "varType": 5
+            "value": "-1",
+            "varName": "npcInstanceId",
+            "varType": 0
         },
         {
             "id": "b0b66790-0400-411d-8764-43368c0e7e6e",
@@ -119,6 +119,36 @@
             "value": "0",
             "varName": "isBoxFocussed",
             "varType": 3
+        },
+        {
+            "id": "04c6aef4-23b4-4c09-9618-5592ce21b2e4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"Hello World\"",
+            "varName": "npcText",
+            "varType": 2
+        },
+        {
+            "id": "2a88d435-afcf-4009-aa5d-faa4009ec088",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": [
+                
+            ],
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "answerArr",
+            "varType": 6
         }
     ],
     "solid": false,
