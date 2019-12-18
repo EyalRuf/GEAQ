@@ -43,6 +43,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "79614774-7561-4bb4-a35f-91be719d3d01"
+        },
+        {
+            "id": "d3abb988-0430-4b28-bef4-b3a1bc5f1a85",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "79614774-7561-4bb4-a35f-91be719d3d01"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -136,6 +146,34 @@
             "value": "-1",
             "varName": "dialogNodeId",
             "varType": 1
+        },
+        {
+            "id": "81699697-7cf9-49ff-9e1b-19315b67accc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "npcId",
+            "varType": 1
+        },
+        {
+            "id": "17cebce0-f592-48c8-a1a5-d321e1b7ff34",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "NPC",
+            "varName": "npcName",
+            "varType": 2
         }
     ],
     "solid": false,

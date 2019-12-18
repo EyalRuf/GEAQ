@@ -17,7 +17,7 @@ for (var i = 0; i < itemListSize; i++;) {
 	var currItemObj = global.inventory[? currItemId];
 	var currItemSprite = currItemObj[? global.ITEM_MAP_SPRITE_PROPNAME];
 	var currX = ITEM_X_OFFSET * (i + 1);
-	var currY = (INV_HEIGHT / 2) - (sprite_get_height(currItemSprite) / 2);
+	var currY = (INV_HEIGHT / 2) - (sprite_get_height(currItemSprite) / 2) + ITEM_HEIGHT_OFFSET;
 	
 	draw_sprite(currItemSprite, -1, currX, currY);
 }

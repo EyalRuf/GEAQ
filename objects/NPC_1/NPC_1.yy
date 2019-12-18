@@ -47,6 +47,22 @@
             "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
             "propertyId": "9bb2539a-e608-4c1c-8d5d-f0e35a520545",
             "value": "200"
+        },
+        {
+            "id": "0f86c73d-8758-49bd-b099-282e5e34165d",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
+            "propertyId": "81699697-7cf9-49ff-9e1b-19315b67accc",
+            "value": "1"
+        },
+        {
+            "id": "41c05a60-883f-48e7-88e7-17d7da8af04e",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
+            "propertyId": "17cebce0-f592-48c8-a1a5-d321e1b7ff34",
+            "value": "A well dressed individual"
         }
     ],
     "parentObjectId": "79614774-7561-4bb4-a35f-91be719d3d01",
