@@ -1,4 +1,5 @@
 draw_set_font(fnt_dialog_box);
+draw_set_halign(fa_left);
 
 // Drawing box
 draw_set_color(c_black);

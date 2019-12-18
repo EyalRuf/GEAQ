@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "07bc0a32-042e-4dc1-8ef7-a4b7864f779d",
+            "Value": {
+                "id": "654e07fe-b587-45f0-b419-13b8b937624a",
+                "resourcePath": "sprites\\NPC_doge_idle_bottom\\NPC_doge_idle_bottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c0a0b14-9c83-44a4-b9d1-40cb0f14bc66",
             "Value": {
                 "id": "19767385-f6c0-4334-a919-2e3597f82985",
@@ -183,11 +191,27 @@
             }
         },
         {
+            "Key": "447e5896-9ad4-4e07-bd55-4a9b36754021",
+            "Value": {
+                "id": "179670c0-8faf-432c-9989-e7e6fcf79c54",
+                "resourcePath": "views\\447e5896-9ad4-4e07-bd55-4a9b36754021.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "447fa51e-c0ca-475e-8115-4feb64632258",
             "Value": {
                 "id": "dab56be8-b55f-4529-8cbe-0761f1ccf20b",
                 "resourcePath": "views\\447fa51e-c0ca-475e-8115-4feb64632258.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "46571202-3651-47fb-8af7-bd673357dad0",
+            "Value": {
+                "id": "b65c56e1-b853-403e-9cd4-42d7972e70b2",
+                "resourcePath": "objects\\doge\\doge.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -279,14 +303,6 @@
             }
         },
         {
-            "Key": "53941e38-353e-472e-9c60-86413b7d7493",
-            "Value": {
-                "id": "22b78a1f-8283-4846-9c29-2d3a8d1f7a30",
-                "resourcePath": "datafiles_yy\\twine3.json.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "5503e88f-5a4f-46fc-a538-f8eee596d380",
             "Value": {
                 "id": "f09081a1-d66f-4ff0-b9e6-4d7353133df7",
@@ -308,6 +324,14 @@
                 "id": "ec8d93f8-a52a-403f-981f-85734c73c60d",
                 "resourcePath": "objects\\NPC_2\\NPC_2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5a4e13ca-52b3-41b5-8e1b-aab82681fd31",
+            "Value": {
+                "id": "ddb9e69d-eeec-4a3c-bb0e-ab08fa0d763b",
+                "resourcePath": "fonts\\fnt_game_over_subtext\\fnt_game_over_subtext.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -348,6 +372,14 @@
                 "id": "56f9bfc2-b4f0-4246-9b21-81f6182b8828",
                 "resourcePath": "sprites\\NPC_0_idle_right\\NPC_0_idle_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6ba35cc2-e421-4265-a834-13885f6b9a85",
+            "Value": {
+                "id": "68f181cb-2350-42bb-b3ff-c079147a7f1e",
+                "resourcePath": "objects\\FullscreenText\\FullscreenText.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -431,6 +463,14 @@
             }
         },
         {
+            "Key": "7e597573-1950-4db8-9aca-18092dd37b84",
+            "Value": {
+                "id": "518e4337-50b9-4f68-bfd0-962723cb258e",
+                "resourcePath": "sprites\\NPC_doge_idle_right\\NPC_doge_idle_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "81775a6b-9d86-4355-bcd4-1b418514270c",
             "Value": {
                 "id": "e66f77f3-4e21-4d75-966d-c2cb239a8d2e",
@@ -455,6 +495,22 @@
             }
         },
         {
+            "Key": "849a1f64-6a97-41de-ac4c-1e8dbe8f7848",
+            "Value": {
+                "id": "a3278215-1d94-4c54-a668-22bdd1678457",
+                "resourcePath": "sprites\\NPC_doge_idle_top\\NPC_doge_idle_top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "85753e1d-fdef-4665-88e3-4438d16b8a50",
+            "Value": {
+                "id": "6125cdbc-2dd6-4975-96ad-8331f4353114",
+                "resourcePath": "scripts\\fullscreen_text\\fullscreen_text.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "875306c0-c934-4289-b6cf-8e02eb91c7c7",
             "Value": {
                 "id": "1be3cdfd-e5a8-4567-b90d-4fe8717fffbc",
@@ -468,14 +524,6 @@
                 "id": "14d2fc17-2697-44b6-b4c4-52fc9c4bbd0a",
                 "resourcePath": "views\\8a4106fb-4dd2-4c8b-b562-1467d86d09b2.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "8b23693e-a17d-4cc1-96cf-be4066cb7933",
-            "Value": {
-                "id": "3c2722b8-3439-4ecd-9596-0c45c2a2fed6",
-                "resourcePath": "datafiles_yy\\twine2.json.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -567,6 +615,14 @@
             }
         },
         {
+            "Key": "aa0055ae-3fc5-485c-9004-fb9407a658b0",
+            "Value": {
+                "id": "d6829004-649b-466b-a224-1b478d4b3b21",
+                "resourcePath": "fonts\\fnt_game_over\\fnt_game_over.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "abab7107-70cd-4f4c-bf04-3c614a3838ca",
             "Value": {
                 "id": "02b0c23d-477e-4bd3-be18-48a44bc5fe49",
@@ -580,6 +636,14 @@
                 "id": "b545bb20-ba68-456f-9cbd-f838a7f7caef",
                 "resourcePath": "sprites\\walk_right\\walk_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b615ba3e-17a9-4326-822f-d4c709a58a6f",
+            "Value": {
+                "id": "2aea8898-772c-43d3-83e7-8655dae73f2f",
+                "resourcePath": "rooms\\YouWon\\YouWon.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -647,6 +711,14 @@
             }
         },
         {
+            "Key": "c9f05c08-305a-49e9-95cf-55c835243773",
+            "Value": {
+                "id": "b6d4451e-5b21-4255-a05e-4650614b2387",
+                "resourcePath": "sprites\\doge_sprite\\doge_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "1a679351-8ddd-4ae7-b012-f0faf99c1fcd",
@@ -692,6 +764,14 @@
                 "id": "ef959389-a5fc-45e5-af48-1ea4e2d58310",
                 "resourcePath": "scripts\\get_dialog_text\\get_dialog_text.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "db249377-8ed6-4777-bb1e-cd9306fdb73d",
+            "Value": {
+                "id": "3e42adc8-e184-45e9-9bc7-3a0c7780e653",
+                "resourcePath": "fonts\\fnt_names\\fnt_names.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -751,6 +831,14 @@
             }
         },
         {
+            "Key": "f887846b-3d7d-4a26-b265-342aeb5f7a56",
+            "Value": {
+                "id": "8f8738e3-1b99-4f94-8f0c-c2ea52a330d4",
+                "resourcePath": "objects\\YouWonScreen\\YouWonScreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fbd56f84-66ea-4a37-a8b5-6ddc87c1cf2a",
             "Value": {
                 "id": "418d604d-84bd-4d5b-af67-7bd6da48ac8a",
@@ -764,6 +852,14 @@
                 "id": "7947dc1e-370a-455d-89e8-2b5127308bdf",
                 "resourcePath": "views\\fdab2b72-0ecb-4128-85e1-6c5febf50299.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fe3f9672-da0b-4d8f-a33d-2b57735b46c8",
+            "Value": {
+                "id": "5e875a64-f846-4d05-a0eb-85fc319a9c59",
+                "resourcePath": "sprites\\NPC_doge_idle_left\\NPC_doge_idle_left.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
@@ -782,7 +878,8 @@
         "dda16e66-a50f-48f5-81d8-311b4970733f",
         "f2a9f771-7210-4647-9364-4cae1eaf3a3c",
         "b9b1541b-ab16-4fe1-9b0c-c4998a7016f8",
-        "3417a260-54d1-422d-8ef5-5f63a37d11e2"
+        "3417a260-54d1-422d-8ef5-5f63a37d11e2",
+        "85753e1d-fdef-4665-88e3-4438d16b8a50"
     ],
     "tutorial": ""
 }

@@ -1,6 +1,6 @@
 // Constants
 BOX_WIDTH = 1688;
-BOX_HEIGHT = 423;
+BOX_HEIGHT = 400;
 BOTTOM_BUFFER = 96;
 
 DIALOG_BOX_X = (window_get_width() - BOX_WIDTH) / 2;

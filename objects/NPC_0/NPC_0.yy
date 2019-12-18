@@ -47,6 +47,22 @@
             "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
             "propertyId": "9bb2539a-e608-4c1c-8d5d-f0e35a520545",
             "value": "100"
+        },
+        {
+            "id": "0f2e10b0-04eb-4435-9899-e5003443a0cf",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
+            "propertyId": "81699697-7cf9-49ff-9e1b-19315b67accc",
+            "value": "0"
+        },
+        {
+            "id": "a32c3f9e-8147-4fd8-9b5a-a680a918ccc4",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "79614774-7561-4bb4-a35f-91be719d3d01",
+            "propertyId": "17cebce0-f592-48c8-a1a5-d321e1b7ff34",
+            "value": "Neighbor"
         }
     ],
     "parentObjectId": "79614774-7561-4bb4-a35f-91be719d3d01",

@@ -18,8 +18,10 @@ global.DIALOG_MAP_CLOSE_DIALOG_PROPNAME = "closeDialog";
 global.DIALOG_MAP_DEPENDANT_ITEM_IDS_PROPNAME = "dependantItemIds";
 global.DIALOG_MAP_UNLOCKED_NODE_ID_PROPNAME = "unlockedNodeId";
 
+// Items
 global.ITEM_MAP_ID_PROPNAME = "id";
 global.ITEM_MAP_SPRITE_PROPNAME = "sprite";
+global.ITEM_MAP_UNLOCKS_DIALOG_NODE_ID = "unlocksDialogNodeId";
 
 // Global variables
 global.dialogMap = read_twine_json();

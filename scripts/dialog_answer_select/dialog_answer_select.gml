@@ -19,7 +19,13 @@ variable_instance_set(npcInstanceId, global.dialogNodeIdPropName, nextQuestionNo
 instance_destroy(currDialogId);
 
 // End/close dialog or open next dialog
-if (nextQuestionNodeId == -1 || answerNode[? global.DIALOG_MAP_CLOSE_DIALOG_PROPNAME] == true) 
+if (nextQuestionNodeId == -1 || answerNode[? global.DIALOG_MAP_CLOSE_DIALOG_PROPNAME] == true) {
 	end_player_npc_interaction();
-else 
+	if (answerNode[? global.DIALOG_MAP_ID_PROPNAME] == 1711) {
+		instance_create_layer(300, 270, "Instances", obj_Apple)
+	}
+	if (answerNode[? global.DIALOG_MAP_ID_PROPNAME] == 302) {
+		instance_create_layer(100, 450, "Instances", obj_carrot)
+	}
+} else 
 	open_dialog_box(npcInstanceId, true);

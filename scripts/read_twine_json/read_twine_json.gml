@@ -33,7 +33,7 @@ for (var i = 0; i < ds_list_size(twineJson); i++) {
 		mappedNode[? global.DIALOG_MAP_ANSWER_ARR_PROPNAME] = 
 			convert_string_to_int_arr(currNode[? global.DIALOG_MAP_ANSWER_ARR_PROPNAME]);
 			
-		if (isLocked) {
+		if (isLocked && ds_map_exists(currNode, global.DIALOG_MAP_ALTERNATIVE_Q_ID_PROPNAME)) {
 			mappedNode[? global.DIALOG_MAP_ALTERNATIVE_Q_ID_PROPNAME] =
 				parseInt(currNode[? global.DIALOG_MAP_ALTERNATIVE_Q_ID_PROPNAME]);
 		}
