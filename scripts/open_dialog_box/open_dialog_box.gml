@@ -14,7 +14,7 @@ if (currDialogNode[? global.DIALOG_MAP_IS_LOCKED_PROPNAME]) {
 var npcDialogText = get_dialog_text(currDialogNodeId);
 var npcDialogAnsArr = get_dialog_answer_list(currDialogNodeId);
 
-with (instance_create_layer(0, 0, "TopLayer", DialogBox)) {
+with (instance_create_layer(0, 0, "Interface", obj_DialogBox)) {
 	npcInstanceId = argument[0];
 	npcText = npcDialogText;
 	answerArr = npcDialogAnsArr;

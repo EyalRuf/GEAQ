@@ -1,6 +1,6 @@
 if (canMove) {
 	if (hspeed > -MAX_DIRECTIONAL_SPEED) {
-		hspeed--;
+		hspeed -= MOVEMENT_INC;
 	}
 
 	sprite_index = walk_left;
