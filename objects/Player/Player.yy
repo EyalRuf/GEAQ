@@ -95,26 +95,6 @@
             "m_owner": "8dd1a297-3d59-4083-bc7a-a1fff61a9228"
         },
         {
-            "id": "00eca289-6551-46e1-ad45-4e6b1bc8855c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "d788bafe-ab1a-4455-88ee-f95171fba6fc",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "8dd1a297-3d59-4083-bc7a-a1fff61a9228"
-        },
-        {
-            "id": "677474ca-0761-4bc5-a6db-a49f60a329c3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "223685b6-0743-4457-aee9-da6082ea035b",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "8dd1a297-3d59-4083-bc7a-a1fff61a9228"
-        },
-        {
             "id": "11a3c334-05f0-434a-a994-7a39a1fbf9ba",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -123,11 +103,68 @@
             "enumb": 16,
             "eventtype": 9,
             "m_owner": "8dd1a297-3d59-4083-bc7a-a1fff61a9228"
+        },
+        {
+            "id": "ed74acfe-1fb3-40a9-a431-dcf5f505a60b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "8dd1a297-3d59-4083-bc7a-a1fff61a9228"
+        },
+        {
+            "id": "86d32d34-f0e1-4499-a263-6d2b65a03b41",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "8dd1a297-3d59-4083-bc7a-a1fff61a9228"
+        },
+        {
+            "id": "93671447-c711-462a-9c10-dcf2699701f7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "8dd1a297-3d59-4083-bc7a-a1fff61a9228"
+        },
+        {
+            "id": "57a89f2e-2dc8-45ea-9521-610993f8ff38",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "1f9c1f84-6aa2-4332-8aae-e83dc259afdd",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "8dd1a297-3d59-4083-bc7a-a1fff61a9228"
         }
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "maskSpriteId": "644f5103-cc9e-4343-9eb2-2fdf24960df9",
+    "overriddenProperties": [
+        {
+            "id": "24bc3cb3-bf72-44a0-9b49-c856e60c4c72",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "84334f4e-b6d2-4ffe-89cf-f8641f75877e",
+            "propertyId": "12977b57-3c14-4684-a860-15eef892e37e",
+            "value": "\"Point Light\""
+        },
+        {
+            "id": "bffb3f15-c1d1-4035-bc8d-9fe40ca91978",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "84334f4e-b6d2-4ffe-89cf-f8641f75877e",
+            "propertyId": "a89637b7-5f88-4100-a038-c4d3e5c67480",
+            "value": "2.5"
+        }
+    ],
+    "parentObjectId": "84334f4e-b6d2-4ffe-89cf-f8641f75877e",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

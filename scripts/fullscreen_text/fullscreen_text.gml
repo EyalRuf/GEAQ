@@ -3,7 +3,7 @@
 /// @param font
 
 // (text, font, lifespan, color, offsetX, offsetY)
-with (instance_create_layer(0, 0, "Instances", FullscreenText)) {
+with (instance_create_layer(0, 0, "Instances", obj_FullscreenText)) {
 	if (argument_count > 0)
 		text = argument[0];
 		

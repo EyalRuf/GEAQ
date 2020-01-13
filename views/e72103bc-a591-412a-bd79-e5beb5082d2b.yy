@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "e72103bc-a591-412a-bd79-e5beb5082d2b",
     "children": [
-        "8f1bddd4-70ee-4367-ab94-5247026e559f"
+        "8f1bddd4-70ee-4367-ab94-5247026e559f",
+        "f40f78f8-8b51-481e-a933-a57aff62a4d8"
     ],
     "filterType": "GMSprite",
     "folderName": "Walls\/Ground",
