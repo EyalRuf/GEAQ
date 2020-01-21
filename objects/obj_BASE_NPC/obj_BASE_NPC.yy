@@ -174,6 +174,20 @@
             "value": "NPC",
             "varName": "npcName",
             "varType": 2
+        },
+        {
+            "id": "1721b4cb-62d1-44d3-a3bd-1a8c93c19310",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.5",
+            "varName": "imgScale",
+            "varType": 0
         }
     ],
     "solid": false,

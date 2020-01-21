@@ -1,2 +1,0 @@
-// Variables
-leverActivated = false;

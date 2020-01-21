@@ -8,7 +8,15 @@ var currDialogNode = global.dialogMap[? currDialogNodeId];
 
 // If curr dialog/question is locked we need to use it's alternative
 if (currDialogNode[? global.DIALOG_MAP_IS_LOCKED_PROPNAME]) {
-	currDialogNodeId = currDialogNode[? global.DIALOG_MAP_ALTERNATIVE_Q_ID_PROPNAME];
+	// If its locked but we got all items that unlock it
+	var dependantItemIds = currDialogNode[? global.DIALOG_MAP_DEPENDANT_ITEM_IDS_PROPNAME];
+	if (currDialogNode[? global.DIALOG_MAP_IS_ITEM_DEPENDANT_PROPNAME] && 
+		inventory_contains(dependantItemIds)) {
+			
+		unlock_node(currDialogNodeId);
+	} else {
+		currDialogNodeId = currDialogNode[? global.DIALOG_MAP_ALTERNATIVE_Q_ID_PROPNAME];
+	}	
 } 
 
 var npcDialogText = get_dialog_text(currDialogNodeId);

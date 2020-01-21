@@ -3,7 +3,9 @@ draw_set_halign(fa_left);
 
 // Drawing box
 draw_set_color(c_black);
+draw_set_alpha(0.4);
 draw_rectangle(x, y, x + BOX_WIDTH, y + BOX_HEIGHT, false);
+draw_set_alpha(1);
 if (isBoxFocussed) {
 	draw_set_color(c_white);
 	draw_line_width(x - 5, y - 5, x + BOX_WIDTH + 5, y - 5, 6);
@@ -25,8 +27,16 @@ var addedAnswersY = 0;
 // Drawing Answer array
 for (i = 0; i < ds_list_size(answerArr); i++) {
 	var ansNode = answerArr[| i];
-	var isLocked = ansNode[? global.DIALOG_MAP_IS_LOCKED_PROPNAME] &&
-		inventory_contains(ansNode[? global.DIALOG_MAP_DEPENDANT_ITEM_IDS_PROPNAME]);
+	var isLocked = ansNode[? global.DIALOG_MAP_IS_LOCKED_PROPNAME];
+	
+	// Unlocking answer if we have items it's dependant on
+	if (isLocked && ansNode[? global.DIALOG_MAP_IS_ITEM_DEPENDANT_PROPNAME]) {
+		if (inventory_contains(ansNode[? global.DIALOG_MAP_DEPENDANT_ITEM_IDS_PROPNAME])) {
+			unlock_node(ansNode[? global.DIALOG_MAP_ID_PROPNAME]);
+			isLocked = false;
+		}
+	}
+	
 	var text = ansNode[? global.DIALOG_MAP_TEXT_PROPNAME];
 	var currentTextHeight = string_height_ext(text, LINE_SEPARATION, TEXT_AREA_WIDTH);
 	

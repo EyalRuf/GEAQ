@@ -15,6 +15,22 @@
             "objectId": "128fffcb-e935-459a-a954-525a5986d9a5",
             "propertyId": "f07a212d-7cb4-4fb4-9015-97935302674b",
             "value": "2"
+        },
+        {
+            "id": "5c25d039-80ec-495f-a772-a6c10729dc8e",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "128fffcb-e935-459a-a954-525a5986d9a5",
+            "propertyId": "7e482a53-2989-46c8-9213-4ea8a5806a88",
+            "value": "spt_LeverDoorVOpen"
+        },
+        {
+            "id": "a5c2b529-a957-425c-98c3-d3326c3602d3",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "128fffcb-e935-459a-a954-525a5986d9a5",
+            "propertyId": "52c36fb8-1726-4ba0-9558-b5b6392d7083",
+            "value": "obj_light_green"
         }
     ],
     "parentObjectId": "128fffcb-e935-459a-a954-525a5986d9a5",
@@ -33,6 +49,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "81df06c2-ac38-419f-b901-2d707b8f7638",
+    "spriteId": "c4aeab63-6c36-4c12-9ecf-0b1bdddb19fa",
     "visible": true
 }

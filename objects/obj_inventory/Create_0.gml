@@ -1,4 +1,5 @@
 // Constatns
 ITEM_X_OFFSET = 100;
-INV_HEIGHT = 150;
-ITEM_HEIGHT_OFFSET = 35;
+INV_HEIGHT = 200;
+
+showInv = false;
