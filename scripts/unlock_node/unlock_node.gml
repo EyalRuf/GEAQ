@@ -1,5 +1,5 @@
 /// unlock_node (nodeId)
-/// @param - nodeId - nodeId to unlock
+/// @param nodeId - nodeId to unlock
 
 var nodeId = argument0;
 

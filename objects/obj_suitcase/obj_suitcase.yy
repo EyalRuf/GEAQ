@@ -2,7 +2,7 @@
     "id": "648e8242-4f53-48d0-8c76-060cd78ecc7d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_suitcase",
+    "name": "obj_Suitcase",
     "eventList": [
         
     ],

@@ -10,7 +10,7 @@
         "95ac5246-5628-404b-84ca-4c4f824f7477"
     ],
     "filterType": "GMSprite",
-    "folderName": "0",
+    "folderName": "Starfish",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

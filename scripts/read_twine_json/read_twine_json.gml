@@ -21,6 +21,7 @@ for (var i = 0; i < ds_list_size(twineJson); i++) {
 	var isQ = boolean_from_ds_node(currNode, global.DIALOG_MAP_IS_QUESTION_PROPNAME);
 	var isLocked = boolean_from_ds_node(currNode, global.DIALOG_MAP_IS_LOCKED_PROPNAME);
 	var dependantItemIds = [];
+	var isItemDependant = false;
 	
 	// Setting simple properties first 
 	mappedNode[? global.DIALOG_MAP_ID_PROPNAME] = nodeId;
@@ -46,16 +47,20 @@ for (var i = 0; i < ds_list_size(twineJson); i++) {
 		mappedNode[? global.DIALOG_MAP_CLOSE_DIALOG_PROPNAME] = 
 			boolean_from_ds_node(currNode, global.DIALOG_MAP_CLOSE_DIALOG_PROPNAME);
 			
-		if (ds_map_exists(currNode, global.DIALOG_MAP_DEPENDANT_ITEM_IDS_PROPNAME)) {
-			dependantItemIds = convert_string_to_int_arr(currNode[? global.DIALOG_MAP_DEPENDANT_ITEM_IDS_PROPNAME]);
-		}
 		
 		mappedNode[? global.DIALOG_MAP_UNLOCKED_NODE_ID_PROPNAME] = 
 			ds_map_exists(currNode, global.DIALOG_MAP_UNLOCKED_NODE_ID_PROPNAME) ?
 				parseInt(currNode[? global.DIALOG_MAP_UNLOCKED_NODE_ID_PROPNAME]) : -1;
 		
-		mappedNode[? global.DIALOG_MAP_DEPENDANT_ITEM_IDS_PROPNAME] = dependantItemIds;
 	}
+	
+	if (ds_map_exists(currNode, global.DIALOG_MAP_DEPENDANT_ITEM_IDS_PROPNAME)) {
+		dependantItemIds = convert_string_to_int_arr(currNode[? global.DIALOG_MAP_DEPENDANT_ITEM_IDS_PROPNAME]);
+		isItemDependant = true;
+	}
+		
+	mappedNode[? global.DIALOG_MAP_DEPENDANT_ITEM_IDS_PROPNAME] = dependantItemIds;
+	mappedNode[? global.DIALOG_MAP_IS_ITEM_DEPENDANT_PROPNAME] = isItemDependant;
 	
 	twineMap[? nodeId] = mappedNode;
 }

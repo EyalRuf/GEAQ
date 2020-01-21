@@ -25,18 +25,30 @@
             "m_owner": "b066f56d-93e5-448d-8c63-3db72fc6a2a0"
         },
         {
-            "id": "96a14f78-f3b4-4e01-b443-becd639e2f01",
+            "id": "8366b334-e276-434d-b535-c860371aefaf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "b066f56d-93e5-448d-8c63-3db72fc6a2a0"
+        },
+        {
+            "id": "60fcee14-58c7-4960-b8f7-27adb4a27851",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
             "eventtype": 7,
             "m_owner": "b066f56d-93e5-448d-8c63-3db72fc6a2a0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        
+    ],
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -65,6 +77,34 @@
             "value": "-1",
             "varName": "openedDoorId",
             "varType": 1
+        },
+        {
+            "id": "e1829ed9-b411-403f-b24a-93fa0f09b90c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 2,
+            "value": "spt_red_lever_idle",
+            "varName": "idle_sprite",
+            "varType": 5
+        },
+        {
+            "id": "d2127e95-ac25-4dcc-a330-5d34d583cadf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spt_red_lever_activated",
+            "varName": "animation_sprite",
+            "varType": 5
         }
     ],
     "solid": false,

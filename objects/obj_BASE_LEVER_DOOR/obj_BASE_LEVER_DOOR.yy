@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_BASE_LEVER_DOOR",
     "eventList": [
-        
+        {
+            "id": "a583d183-d13d-4f8a-a6db-4cf9a1f9c1f9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 7,
+            "m_owner": "128fffcb-e935-459a-a954-525a5986d9a5"
+        },
+        {
+            "id": "fefaac6d-96be-4e3d-9077-84cc164399f9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "128fffcb-e935-459a-a954-525a5986d9a5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -36,6 +55,34 @@
             "value": "-1",
             "varName": "doorId",
             "varType": 1
+        },
+        {
+            "id": "7e482a53-2989-46c8-9213-4ea8a5806a88",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "animation_sprite",
+            "varType": 5
+        },
+        {
+            "id": "52c36fb8-1726-4ba0-9558-b5b6392d7083",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 256,
+            "value": "obj_light",
+            "varName": "light_obj",
+            "varType": 5
         }
     ],
     "solid": false,

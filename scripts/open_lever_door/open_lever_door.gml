@@ -4,6 +4,7 @@
 var openedDoorId = argument0;
 
 with (obj_BASE_LEVER_DOOR) {
-	if (doorId == openedDoorId)
-		instance_destroy(id);
+	if (doorId == openedDoorId) {
+		sprite_index = animation_sprite;
+	}
 }

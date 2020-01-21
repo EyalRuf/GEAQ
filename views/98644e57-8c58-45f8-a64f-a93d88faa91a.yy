@@ -10,7 +10,7 @@
         "c1a1b31c-068c-407e-8357-0bfe4bd9032f"
     ],
     "filterType": "GMSprite",
-    "folderName": "2",
+    "folderName": "Shrimp",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

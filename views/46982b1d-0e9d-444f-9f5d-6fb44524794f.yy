@@ -10,7 +10,7 @@
         "93e35be7-314c-4435-a9e4-8288527d3e97"
     ],
     "filterType": "GMSprite",
-    "folderName": "1",
+    "folderName": "Crab",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

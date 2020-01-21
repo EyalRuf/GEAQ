@@ -25,3 +25,4 @@ x = DIALOG_BOX_X;
 y = DIALOG_BOX_Y;
 selectedAnswerIndex = 0;
 selectedAnswerHighlighted = false
+isBoxFocussed = true;
